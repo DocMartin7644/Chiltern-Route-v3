@@ -1,0 +1,105 @@
+A note on the stock included with the route
+===========================================
+
+The TRAINSET folder contains two types of stock.  The majority of the stock is by other authors whose permission to distribute in this way has been sought.  The result of the exercise to seek permission is contained in the Stock Permissions spreadsheet included in the DOCUMENTS folder.  Any help with securing permissions from those authors who either have not replied or whose contact details are non-existent or invalid will be gratefully accepted.  This stock is required stock for the activities included with the route.
+
+In addition to this stock, the TRAINSET folder also includes stock of special relevance to the Chiltern route in that I have photographic evidence of the presence of these items on one or other of the lines in the route.  Some, but not all, of this stock is also used by some of the activities.  This set of stock consists of my reskins with permission of other authors' stock and my original models.  Details of this stock follow.  All this stock with the exception of the Blue Arrow A3s and the OIR dumpcar are provided with both MSTS physics and the Open Rails physics developed by Darwin Smith.  
+
+Reskins with permission of Frank Sandwell's GWR steam locomotives
+-----------------------------------------------------------------
+I have reskinned these models into BR Engine Green and have provided them with names and numbers of locomotives not hitherto available in MSTS and for which I have photographic evidence of their use on one or other of the lines in my Chiltern route.  I have added headcodes (WR reporting codes) so typical of the Western Region to these models.  These are selectable using the simple batch file contained in the Headcodes folder of each locomotive's folder.  The batch file is an adaptation with permission of work by Gerald Saunders.  It allows you to select different headcodes depending on the service of the train in question or no headcode at all.  THESE HEADCODES WORK ONLY IN OPEN RAILS.  The locomotives will work in MSTS but no headcode will be displayed.  This is because the headcodes are carried on the locomotive as a freight anim.  MSTS supports only one freight anim per item of stock and in the case of these locomotives it is already used for the crew.  Open Rails provides for multiple freight anims per item and I have taken advantage of this facility to add the headcodes.
+
+4079 Pendennis Castle
+4096 Highclere Castle
+5055 Earl of Eldon
+5082 Swordfish
+7030 Cranbrook Castle
+7033 Hartlebury Castle
+6002 King William IV
+6003 King George IV
+6005 King George II
+6012 King Edward VI
+6013 King Henry VIII
+6014 King Henry VII
+6018 King Henry VI
+6023 King Edward II
+6029 King Edward VIII
+4994 Downton Hall
+Collett 4000 gallon tender
+
+Reskins with permission of Reg Furniss's GWR steam locomotives
+--------------------------------------------------------------
+These are reskins furnishing names and numbers of locomotives not hitherto available in MSTS and for which I have photographic evidence of their use on one or other of the lines in my Chiltern route.  They are provided with headcodes like the Kings and Castles above which again work ONLY IN OPEN RAILS.
+
+6808 Beenham Grange
+6824 Ashley Grange
+6828 Trellech Grange
+6834 Dummer Grange
+6862 Derwent Grange
+Grange 3500 gallon tender
+
+Reskins with permission of Jimi Ibett's and his team's Metropolitan Line Bo-Bo Sarah Siddons
+---------------------------------------------------------------------
+I have reskinned the original Sarah Siddons model into versions of each of the Met Bo-Bos extant at the notional period of the Chiltern route, i.e. c.1960. Both air-braked and vacuum-braked versions of each locomotive are included.  I have also provided selectable destination boards using a similar batch file to that for the GWR locomotives.  These destination boards will show in MSTS since only one freight anim is involved.
+
+ 1 John Lyon
+ 2 Thomas Lord
+ 3 Sir Ralph Verney
+ 4 Lord Byron
+ 5 John Hampden
+ 6 William Penn
+ 7 Edmund Burke
+ 8 Sherlock Holmes
+ 9 John Milton
+10 W E Gladstone
+11 George Romney
+12 Sarah Siddons (not a reskin but included for the destination boards)
+13 Dick Whittington
+14 Benjamin Disraeli
+16 Oliver Goldsmith
+18 Michael Faraday
+
+Reskins of defunct Blue Arrow A3s
+---------------------------------
+Again, I have photographic evidence of the use of the following locomotives on the Chiltern route.  These locos are provided with selectable headboards using a similar batch file to that for the GWR locomotives which work ONLY IN OPEN RAILS.  The arrangement of the lamps is also changeable by copying the lamp textures contained in the lamps folder and overwriting the textures in the main folder.
+
+60051 Blink Bonney
+60102 Sir Frederick Banbury
+60108 Gay Crusader
+A3 Non-corridor Tender
+
+If anyone knows of any successors to Blue Arrow from whom permission for these reskins needs to be sought, I would be grateful to hear from them.
+
+Reskin of Paul Mitchell's BR Standard Class 7 (blanket permission given in enclosed readme)
+-----------------------------------------------------------------
+70024 Vulcan
+
+I have also added headcodes for Chiltern route use.
+
+Original models by DocMartin for MSTS/Open Rails
+------------------------------------------------
+1960 Central Line Stock
+Oxford Ironstone Railway dumpcar (loaded and empty versions) 
+LT Dreadnought Carriages
+LT T stock
+
+The Central Line 1960 stock includes changeable destination blinds in the same way as the Met Bo-Bos.  The blinds for the lead driving car and for the trailing driving car can be selected separately.
+
+Typical consists for the Central Line stock and the T stock are included in the Sample Consists folder.
+
+Original models by DocMartin for Open Rails ONLY
+------------------------------------------------
+LT F Stock (This stock needs a more detailed cabview but it is beyond my knowledge or skill to make one)
+LT Standard Stock (for Central Line)
+LT Standard Stock Piccadilly Line
+
+These models do not work in MSTS.
+
+Typical consists for the F stock and the Standard Stock are included in the Sample Consists folder.
+
+Every attempt has been made to contact Reg Furniss to renew permissions and Darren Carter to obtain permission to use his underground stock cabs but at this late date in the history of MSTS these efforts have not as yet met with success.
+
+Please notify me of any issues with these models.
+
+DocMartin
+docmartin7644@gmail.com

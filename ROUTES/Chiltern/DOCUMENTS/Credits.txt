@@ -1,0 +1,1180 @@
+CREDITS
+
+A particular vote of thanks goes to: 
+David Forrest for help in preparing the route for distribution, including making snow and night textures where needed and checking for errors and duplications.
+Richard Stevenson for testing the route and writing numerous activities for it.
+Chris Jakeman and Rick Loader for great help with GitHub.
+
+Special thanks go to the following (in alphabetical order):
+
+Les Burley for helping me obtain GWR track plans.
+Tim Booth for his superb UK Fine Scale track system, UKFS textures for default track and Dynatrax utility.
+Joseph Pearson for his BR track project.
+Simon Barnes for customized GWR signal boxes, customized signals and for GCR and GCR/GWR joint route signalling diagrams.
+Frank Carver for sharing his unpublished models and allowing me to adapt his textures. Also for animating my F86 Sabre and for coordinating its landing with his model of the B52.
+Brian Bere-Streeter for permission to reskin his terrace houses and to use his unreleased houses under construction and his unreleased Ruston-Bucyrus models (some parts and textures of latter by Paul Charland).
+EricC for building replacement embankment models which accept shadows correctly.
+Dave Corfield for retrieving the 3rd/4th rail Dynatrax profiles for me, needed to model 4th rail curves on the LT lines in the route.
+Henry Davidson for invaluable advice on the London Transport Underground system.
+Geoff Forrest for help in tracking down signalling errors.
+Reg Furniss for adapting his GWR Water Column to fit between tracks at 12ft way.
+Clive Heard for permission to use custom objects from his BTB route.
+Jimi Ibett for graciously sharing many of the objects from his District Line route and for his invaluable advice regarding London Underground signalling.
+The late Doug Lee for his tremendous help providing information to guide my making of many of the custom road vehicles I have built for this route.
+Ian Macmillan for his generous help in improving my model of the OIR dumpcar and for building the PO quarry wagons used by the Associated Portland Cement works at Blechington.
+Charles Malcolm for permission to use his original models from his excellent Bedford - Hitchin route.
+Tim Mitchell, author of the Woodhead route, for permission to use his track layout at Woodford Halse as a guide for my own version of the station and related yards.
+Larry Mullett for his encouragement and advice for my early modelling projects.
+Frank Sandwell for sharing his models and in particular for adapting his travelling crane to suit High Wycombe West Yard.
+Gerald Saunders for great help with headboards, batch files and the TSRE5 editor and for creating the DynaTrax Match utility to remove unneeded dynamic track sections.
+Phil Baines  and the late Gary Soden for kindly allowing me to use objects from the Westvale route.
+Colin Smith for providing information on LT Underground gradients and signalling.
+Murray Tremellen and the Marlow and District Railway Society for valuable help with the Maidenhead and Marlow branches.
+Derek Wilde for building Marylebone Signal box for me.
+Michael Willis for kindly allowing me to integrate and adapt his unfinished Oxford route.
+Sjoerd Ydelma for allowing me to reskin and use his underground station models.
+John Yelland for his wonderful GWR signals and for building a number of additional signals for me not included in his GWR pack.
+
+Thanks also to the following creators of tools and utilities which make route building considerably easier than it would otherwise be:
+
+Ted Curphey for his FF rulers.
+Dado for his Rulers.
+Ed Fielden for his Gradient Converter utility.
+Paul Gausden for Shape Viewer.
+Derek Wilde and Vince Cockeram for their Align Utility.
+Gerald Sauders for his MSTS Check, sms_Checker, sigcfg_Checker, MSTS_ActMan and Activity Times Checker utilities.
+Mike Simpson for RouteRiter and Carlos HR for the MSUtils utility included in it.
+
+I found the following website invaluable for converting distances expressed in miles on my track plans to metres: http://www.worldwidemetric.com/measurements.html
+
+My thanks too to the many contributors to the UKTrainSim forums, Elvas Tower, the GCR forum and the GWR e-list, who have encouraged, advised and provided invaluable information during the building of this route.
+
+I am also very grateful to the following people for the use of their work:
+
+Mayang Murni Adnin
+------------------
+Various textures
+
+Tony Adams
+----------
+Tractor and Trailer
+Walls and Gates
+Bedford CA van and Morris LD150 van
+
+Jonathan Ainsley
+----------------
+Arched retaining wall
+
+AlfaNetRR
+---------
+Excavator
+
+Paul Andrews
+------------
+Sharp curve track sections
+
+Anonymous
+---------
+Building Clumps
+
+AntonCM
+-------
+Mexborough Station Hut
+
+Mike Apsey
+----------
+Outhouse
+
+Ardennes
+--------
+ARD People Packs
+
+A.Asensio
+---------
+Renault Dauphine
+
+Thomas Baldwin
+--------------
+AEC Mammoth and Weighbridge
+
+Phil Baines
+-----------
+Steam Crane
+
+Simon Barnes
+------------
+BR (E) Colour Light Signals
+LNER Searchlight Signals
+BR (M) Semaphore Signals
+Tinsley Shunters Cabin
+Bescot Bumper Pack
+My Mum's Greenhouse
+Signal Gantries
+Wooden Twin Box Relay Cabinet
+Limit of Shunt Board
+LNER Searchlight Signals
+80 metre Cliff
+LNWR Level Crossing Gates
+BR Bus Shelters
+LMS Type 13 Signal Box
+LNW Carterhouse Junction Signal Box
+
+Captain Bazza
+-------------
+20ft Yachts
+18ft Yacht moored
+
+Russell Beer
+------------
+Bank Building
+
+Brian Bere-Streeter
+-------------------
+Residential Buildings
+
+William Bieszczak
+-----------------
+Coke Piles
+
+Francesc Blanch "mestral"
+-------------------------
+Vespa trike van
+
+Bruce Brayne
+------------
+Pint Glass
+
+Bruce Bridges
+-------------
+Concrete Bridges
+
+Jean Brisson
+------------
+Flats
+
+Neville Brook
+-------------
+Tractors
+
+Don Brynelsen
+-------------
+1960s Era Elementary School
+Round Pool
+Cinema
+Offices
+Docks
+
+Trevor Burt
+-----------
+Ford Escort Mk2 Vans
+Bedford J2 and J3 Trucks
+Hillman Minx
+Morris Minor 1000 Truck
+Morris Minor 1000 Traveller
+Morris Minor Series 2
+Bedford J2 Tow Truck
+Bedford S Bus
+Austin A40 Farina Mk1
+Morris Minor Vans
+Morris Minor Fire Engine
+
+Byrails
+-------
+Pipe Bridges
+
+Caldrail
+--------
+Elevated Track Signal Gantries
+
+Wayne Campbell
+--------------
+Freight Platform and Milk Cans
+
+Randall Carnley
+---------------
+Lumber Company
+
+Fred Carter
+-----------
+Bar Bench
+Bristol Lodekka FLF Towbus
+Bristol Lodekka FLF Double Deck Bus
+
+Frank Carver
+------------
+Track stack
+Cow Parsley
+Black and White House
+GWR Canopies
+Toddington Station
+Weeping Birch
+GWR Goods Shed
+GWR Bridges
+Field Hedges
+Animated B52
+Waterways Lock Weir Signs
+Garden Allotments
+Poultry Pens
+Dutch Barn
+Brussels Sprouts
+Celery
+Runner Beans
+Cabbages
+Field Vegetation
+Trackside Vegetation
+Woodland Ferns
+Hawthorn Hedge
+Waterfall
+Animated Plants
+Lattice Bridge
+Bread and Cake Shop
+Service Platforms
+
+Paul Charland
+-------------
+Link-Belt LS98a Crane
+various Industrial Plants
+
+Gary Costa
+----------
+Warehouse
+
+Alistair Cowell
+---------------
+Glasgow Transport Overhead Gantries
+
+Stu Culin
+---------
+Shops
+
+Ted Curphy
+----------
+Highway Bridges
+
+Dado
+----
+Autoshop
+
+Johann Dantiger
+---------------
+Houses
+
+Mike Deming
+-----------
+Old Wooden Bridge
+Loading Dock
+
+Marcel Despont
+--------------
+160m Retaining Wall
+Coal Barge
+Girder Bridges
+Harbour Crane
+English Buildings
+
+John Dibben
+-----------
+Crosville Bristol Bus
+Morris Royal Mail Van
+
+Brian W. Dougherty
+------------------
+Kennel
+
+Steve Dunham
+------------
+4 Stairways
+
+Andy Dunnett and Mark Wiles
+---------------------------
+Oxford AEC Reliance
+
+Frank Eyer
+----------
+Field Irrigator
+
+Edward Farms
+------------
+Gradient Signs
+Mileposts
+
+Roderic Findlay
+---------------
+London Terrace Houses
+Ladies and Gentlemen
+Half Timbered Barn
+Farm Buildings
+1930s Factory
+
+Nick Fitzsimmons
+----------------
+Cement Plant
+
+John Fleming
+------------
+Victorian School
+Maintenance Shed
+
+Tony Formoso
+------------
+Information Indicator Signals
+
+Uwe Franke
+----------
+Motorbikes
+
+Henrik Fredborg
+---------------
+Harbour Crane
+
+Reg Furniss
+-----------
+Cows
+Gorse Bush
+Wild Flowers
+Reeds
+Bush Clumps and Hedgerows
+GW Bench
+Community Women
+Male people
+Birds
+GWR Water Column
+Ground Frame
+GWR Water Tower
+Siding Gate
+Gasometer
+Grounded Coach
+Yard Clutter
+Phone Box
+Hedgerows
+Houses
+Maltings
+Express Dairy
+Dry Stone Walls
+Goods Shed
+
+Ron Furto
+---------
+Grass Texture
+
+Rich Garber
+-----------
+Concord1
+
+Alan Garrett
+------------
+Paper Mill
+
+Swier Gast
+----------
+Barge
+Barrels
+Buffers
+Dairy
+Pallets
+Tug and barge
+Water Plants
+Workshop
+Washing Line
+Lock Gates
+Verhildershum Building
+Drive-in Warehouse
+Bicycle Sheds
+Flour Factory
+Hotel
+
+PascalvdS
+---------
+Shell Station
+
+Pierre Gauriat
+--------------
+Citroen 2CV
+
+Paul Gausden
+------------
+Brick Culvert
+Milk Churn
+Hedges and Fences
+Posters and Enamel Signs
+GWR Loading Gauges
+UK Gas Storage Tanks
+GWR Water Towers
+Cinema
+GWR Huts
+
+Okrasa Ghia
+-----------
+Barrels
+
+David Gibbons
+-------------
+UKFS Embankments
+
+Jonathon Gourlay
+----------------
+Bristol Bus Class K
+
+Niall Gray
+----------
+GC2 Flat 2
+
+Martyn T. Griffin
+-----------------
+Gravel Roads
+
+Jim Grogan
+----------
+Butterfly Canopy
+
+Peter Harvey
+------------
+Goods Shed
+Swans
+
+Ed (Hawk) Hawkins
+-----------------
+Stone Bridge
+Picnic Table
+Small Shed
+
+Alan Heath
+----------
+Replacement water texture for water troughs
+
+James Hinman
+---------
+Railstack (textures by Phil Skene)
+Wheel Track (textures by Ted Curphey and Phil Skene)
+Couplers (textures by Ted Curphey and Ron Picardi)
+2 Track Loading Dock
+
+Don Hinton
+----------
+Community Offices
+
+Don Hinton and Jim Gough
+------------------------
+Low poly Telegraph Poles
+
+John Hopkins
+------------
+Parking Lot
+
+Tim Hubbard
+-----------
+Station Signs
+Station Totems
+
+Ian Jenkins
+-----------
+Banner Repeater Signals
+Platform Filler
+London Underground Clutter
+London Underground Waiting Rooms
+London Underground Bridges
+Loco Servicing Shed
+Flats
+
+Jörgen Wase Karlström and Cristiano Bottoni
+-------------------------------------------
+Esso Filling Station
+
+John Kendrick
+-------------
+GWR Mileposts
+UK Road Signs
+UKFS Turntable Masks
+NER Weigh Office
+NER Speedpost Set
+
+Edmund Kinder
+-------------
+Lazonby Stone Waiting Room
+
+Ted Kocyla
+----------
+Eastern Red Cedar
+
+Alexander Komissarov
+--------------------
+Flats
+Poplar Tree Line
+
+Klaus Kraml
+-----------
+BMW Isetta
+VW Cabriolet
+VW Buses
+VW Beetles
+
+Nino La Macchia
+---------------
+Flats
+
+Vincent Lanza
+-------------
+Industrial and Commercial Floodlights
+Street Lights
+
+Jeff Layfield
+-------------
+4 IOW Churches
+RR Silver Wraith
+Bentley MkVI
+Vintage Bentley
+Triumph 1300/Toledo
+Austin 7s
+
+Sean Lim
+--------
+Large Chemical Drums
+Small U.S. Factory
+
+Sean Lim & Jon Champ
+--------------------
+BR Crane
+
+Rick Loader
+-----------
+SR Concrete Footbridge
+Open Rails Working Turntables
+
+Joerg Loescher
+--------------
+Stream Sections
+
+A & S MacGillivray
+------------------
+Common Pheasant
+
+Gordon Mackenzie
+----------------
+Skewed Bridges
+Bala Footbridge
+
+Manuel Mader
+------------
+Washing Line
+Station Lights
+
+Making Tracks (freeware)
+------------------------
+Kew Bridge
+
+Charles Malcolm
+---------------
+Platform Lights
+
+John Mannion
+------------
+Beehives
+Parking Lot
+Library
+
+Robert C Mapplebeck
+-------------------
+House under construction
+
+David Martin
+------------
+Ashiquee Restaurant
+Low Poly Bank
+Low Poly Shops
+Suburban Shops
+
+Paul Matthews
+----------------
+BR and GWR Station Posters
+SR Substation
+Bexhill West Station Building
+Crowhurst Station Building
+
+John Matraw
+-----------
+Canals
+Frying Scotsman
+
+Ron Mays
+--------
+Engine Shed
+
+Kerr McIntosh
+-------------
+Berms
+
+Mikosch
+-------
+City Backdrop
+
+John Milligan
+-------------
+UQ Signals
+Speed Posts
+Backdrops
+Signal Gantries
+GWR Signals
+UQ Signals
+Somersault Signals
+Soccer Ground
+Industrial Estates
+Residential Blocks
+
+Akshay Mistry
+-------------
+Potato Plants
+
+Ian Morgan
+----------
+Platelayer's Hut and Toolstore
+Jaguar E type
+Jaguar Mk2
+London Taxi
+Triumph Dolomite
+Wolseley 16/60
+Thorneycroft Swift JL/GR6
+VW Minibus
+Lightweight Landrover
+Retaining Walls
+Modern House
+Road Underbridge
+Fiat 500
+Renault 3 axle Tipper Truck
+SCATS Warehouse
+
+Larry Mullett
+-------------
+Animated Smoke
+Fork lift driver
+Water Texture
+
+Steve Nicklin
+-------------
+Double Wire Fence
+50s/60s Railway Advertisements
+
+Nicober
+-------
+Animated Flags
+
+Andrew F O'Connor
+-----------------
+Austin Healeys
+
+Ron Paludan
+-----------
+Stucco Warehouse
+
+PascalvdS
+---------
+BP Petrol Station
+Hospital
+
+PatM41
+------
+Rusty Plough
+
+Grando Pascal
+-------------
+Superconstellation
+
+John Pawlak
+-----------
+Abandoned Water Heater
+
+Garry Peacock
+-------------
+Modern Offices
+
+Joseph Pearson
+--------------
+Bridges and Viaducts
+Overtrack Walkway
+Wennington Station
+
+The late Dieter Penzl
+---------------------
+Animated Cows
+Animated Cyclists
+Fences
+Street Islands
+Sawmill
+Gravel Works
+Assorted Buildings
+Houses
+Sawmill
+Post Office
+Animated Sailboat
+Animated Sheep
+Multi-storey Car Park
+
+Ron Picardi
+-----------
+200ft Silver Bridge
+Bridge Kits
+Chain link fencing
+Silos
+Farm Buildings
+
+Graham Pitt
+-----------
+Magnetic Platforms
+Platform Kit
+
+Jonathan Powell
+---------------
+UK Hedges
+
+Lew Price
+---------
+Bingo Hall
+Charnwood Flats
+
+Cal Rasmussen
+-------------
+Mosier Elementary School
+
+Uncle Red
+---------
+Relay Boxes
+Animated Traffic Lights
+Walls
+City House (and Uncle Blue)
+
+Doug Relyea
+-----------
+Mill Buildings
+Railway Phone Box
+Danforth Cooke
+
+Ralf Riemer
+-----------
+Tram Tracks
+
+Keith Rigby
+-----------
+Stone Barns
+Replacement UKFS slip section
+Viaduct Kit
+
+Geoff Rowlands
+--------------
+Model T Vans
+Thorneycroft Lorries
+Horse and rider
+
+Frank Sandwell
+--------------
+GWR Travelling Crane
+
+Eugénio Santos
+--------------
+Old Buses
+
+Carlo Santucci
+--------------
+Open Rails Automatic Track Sounds
+
+Teemu Saukkonen
+---------------
+Building Pack v2
+Backhoe
+
+Bill Scott
+----------
+Real Falling Snow
+
+John Scott
+----------
+Community Men
+
+Chris Sharp
+-----------
+Old Sleeper Pile
+Wherehouses
+
+Mike Simpson
+------------
+Stone Engine Sheds and Water Tower
+
+Michael Sinclair
+----------------
+American Oak Trees
+Mighty Oak Trees
+Lombardy Poplar
+Beech Trees
+Birch Trees
+Chestnut Trees
+Yew Trees
+
+Darwin Smith
+------------
+HR Shunting Signal
+HR Water column
+
+Jur Snijder
+-----------
+White Hart Inn
+Southwold Village Houses
+Grounded Van Body
+Southwold Farmhouse
+
+Paul Spicer
+-----------
+19th century houses
+
+Sven Sprenger
+-------------
+Lada 1500
+
+Mike Stephan
+------------
+Apartment Buildings
+City Backdrop
+Office Building
+Warehouses
+Bollards
+Gas Holder
+Industrial Tanks
+School
+Engine Sheds
+Cafe GL22
+Houses
+
+Ken Swenson
+-----------
+Air Compressor
+
+tark1054
+--------
+Roy's Warehouse
+Tunnel Fillers
+
+Mark Todd
+---------
+WWII Pillboxes
+Crow Hazard
+
+Zoe Topper
+----------
+Walls
+
+René van Hove/Christopher Sanderson
+-----------------------------------
+Lyme Backdrops
+Tunnel Portals
+
+Don Ultimax
+-----------
+Timber Stacks
+
+Ben Vincer
+----------
+Community Greenhouse
+
+Viper
+-----
+Benches
+
+B.Walker
+--------
+Open Goods Shed
+Goods Shed
+Station Clocks
+
+Niall Wallace
+-------------
+Town Signs
+
+John Wallwork
+-------------
+GWR Branchline Station
+GWR Branchline Goods Shed
+GWR Engine Shed
+
+Steven Warden
+-------------
+Blue Brick Short Bridge
+Single Track Tunnel Portal
+
+Derek Wilde
+-----------
+Great Central Railway Signal Boxes
+GCR Bridges
+
+Stuart Williamson
+----------------
+GWR Running Shed
+GWR Style Telegraph Poles and Yard Lights
+
+Andy Wills
+----------
+Realistic snowfall
+
+John Wilson
+-----------
+GCR Loading Gauge
+
+Mike Wilson
+-----------
+Albion Flatbed Lorry
+Commer Tow Truck
+ERF Beer Tanker
+Scammel Scarab
+Old Scammel Roadrailers
+Series 1 Landrovers
+Pickford's Pantechnicon
+Cattle Dock
+Fogman's Hut and Coalyard
+Bedford OL Lorries
+
+Ingo Wittenberg
+---------------
+Engine Shed
+
+Pete Worsley
+------------
+Canal Sections
+Narrow Boats
+
+Wurzeller
+---------
+Southall Dry Gasholder
+
+Steve Yard
+----------
+Ladder
+Garden Shed
+Platelayer's Hut
+Telephone Shelter Box
+
+John Yelland
+------------
+GWR Semaphore Signals
+BR Colour Light Signals
+Dummy Distant Signal
+Midland Railway Signals
+SR Signals
+
+Chris Young
+-----------
+Passenger Bridge
+
+Chuck Zeiler
+------------
+Birdsong
+Cow Mooing
+
+I apologise if I have forgotten anyone.
+
+All other models in the route were made by me in TrainSim Modeller.
+
+
+Principal Reference Materials Consulted
+---------------------------------------
+Signal Box Diagrams GWR Sections A, G, R and S
+Signalling Record Society 2010
+
+Track Layout Diagrams of the Great Western Railway and B.R. Western Region: Section 26 Banbury Direct Line
+R.A. Cooke Second Edition 1992 ISBN 1-871674-17-4
+
+BR Main Line Gradient Profiles The Age of Steam
+Ian Allan 2003 ISBN 0-7110-0875-2
+
+Aylesbury to Rugby
+Vic Mitchell and Keith Smith
+Middleton Press 2006 ISBN 1 904474 91 8
+
+Banbury to Birmingham
+Vic Mitchell and Keith Smith
+Middleton Press 2004 ISBN 1 904474 27 6
+
+Baker Street to Uxbridge & Stanmore
+Vic Mitchell and Keith Smith
+Middleton Press 2006 ISBN 1 904474 490X
+
+Branch Lines to Henley, Windsor and Marlow
+Vic Mitchell and Keith Smith
+Middleton Press 2002 ISBN 1 901706 77X
+
+Branch Lines to Princes Risborough
+Vic Mitchell and Keith Smith
+Middleton Press 2003 ISBN 1 904474 055
+
+Branch Lines around Towcester
+Vic Mitchell and Keith Smith
+Middleton Press 2008 ISBN 978 1 906008 39 0
+
+Branch Lines of West London
+Vic Mitchell and Keith Smith
+Middleton Press 2000 ISBN 1 901706 58 8
+
+Didcot to Banbury
+Vic Mitchell and Keith Smith
+Middleton Press 2003 ISBN 1 904474 020
+
+Ealing to Slough
+Vic Mitchell and Keith Smith
+Middleton Press 2000 ISBN 1 901706 42 0
+
+Euston to Harrow and Wealdstone
+Keith Scholey
+Middleton Press 2002 ISBN 1 901706 89 3
+
+Marylebone to Rickmansworth
+Vic Mitchell and Keith Smith
+Middleton Press 2005 ISBN 1 904474 497
+
+North London Line
+Vic Mitchell and Keith Smith
+Middleton Press Third Reprint 2007 ISBN 978 1 873793 94 7
+
+Oxford to Bletchley
+Vic Mitchell and Keith Smith
+Middleton Press 2005 ISBN 1 904474 57 8
+
+Paddington to Ealing
+Vic Mitchell and Keith Smith
+Middleton Press 2000 ISBN 1 901706 818
+
+Paddington to Princes Risborough
+Vic Mitchell and Keith Smith
+Middleton Press 2002 ISBN 1 901706 818
+
+Princes Risborough to Banbury
+Vic Mitchell and Keith Smith
+Middleton Press 2000 ISBN 1 901706 56 7
+
+Reading to Didcot
+Vic Mitchell and Keith Smith
+Middleton Press 2002 ISBN 1 901706 79 6
+
+Shepherds Bush and Uxbridge Tramways
+John C. Gillham
+Middleton Press 1998 ISBN 1 901 706 28 1
+
+Slough to Newbury
+Vic Mitchell and Keith Smith
+Middleton Press 2002 ISBN 1 901706 818
+
+St.Pancras to St.Albans
+Geoff Goslin and J.E.Connor
+Middleton Press 2002 ISBN 1 901706 78 8
+Waterloo to Windsor
+Vic Mitchell and Keith Smith
+Middleton Press 1988 ISBN 0 906520 54 1
+
+Willesden Junction to Richmond
+Vic Mitchell and Keith Smith
+Middleton Press 1996 ISBN 1 873739 715
+
+The Branch Lines of Buckinghamshire
+Colin G Maggs
+Amberley Publishing plc 2010 ISBN 978 1 84868 342 6
+
+The Brill Tramway
+Bill Simpson
+Oxford Publishing Co. 1985 ISBN 0 86093 218 4
+
+The Final Link
+Dennis Edwards and Ron Pigram
+Midas Books 1982 ISBN 0 85936 280 9
+
+The Great Western & Great Central Joint Railway
+Stanley C. Jenkins
+The Oakwood Press Second Revised Edition 2006 ISBN 0 85361 653 1
+					      ISBN 978 0 85361 653 5
+
+The Heart of the Great Western
+Adrian Vaughan
+Silver Link Publishing Ltd  Reprinted 1995  ISBN 1 85794 026 1
+
+A History of the Railways of Oxfordshire Part 1: The North
+Bill Simpson
+Lamplight Publications 1997 ISBN 1 899246 02 9
+
+A History of the Railways of Oxfordshire Part 2: The South`	
+Bill Simpson
+Lamplight Publications 2001 ISBN 1 899246 06 1
+
+The Banbury to Verney Junction Branch
+Bill Simpson
+Oxford Publishing Co. 1978 ISBN 902888 87 0
+
+A History of the Metropolitan Railway Volume One
+The Circle and the extended lines to Rickmansworth
+Bill Simpson
+Lamplight Publications 2003 ISBN 1 899246 07 X
+
+A History of the Metropolitan Railway Volume Two
+The Railway from Rickmansworth to Aylesbury including Halton Camp Railway
+Bill Simpson
+Lamplight Publications 2004 ISBN 1 899246 08 8
+
+London's Underground
+H.F. Howson
+Ian Allan 1986 ISBN 0 7110 1559 7
+
+The Ironstone Quarries of the Midlands: Part Two The Oxfordshire Field
+Eric Tonks
+Book Law Publications 2009 ISBN 978 1 907094 01 9
+
+The Bicester Military Railway
+E.R. Lawton and Major M.W. Sackett
+Oxford Publishing Co. 1992 ISBN 0 86093 467 5
+
+The Abingdon Branch
+Nigel Trippett & Nicholas de Courtais
+Wild Swan Publications Ltd.  1985 ISBN 0 906867 29 0
+
+The Marlow Branch
+Paul Karau and Chris Turner
+Wild Swan Publications Ltd.  nd ISBN 0 906867 54 1
+
+The Didcot Newbury and Southampton Railway
+Paul Karau, Mike Parsons and Kevin Robertson
+Wild Swan Publications Ltd.  nd ISBN 0 906867 04M5
+
+London Transport Museum On-line Photograph Collection
+
+Let's Go to Birmingham
+British Transport Films 1962
+
+Various cab ride videos on YouTube
+
+Google Earth
+
+The Old Maps website
+
+Ordnance Survey Landranger Maps
+
+151 Stratford-upon-Avon, Warwick & Banbury
+164 Oxford, Chipping Norton & Bicester
+165 Aylesbury & Leighton Buzzard, Thame & Berkhamsted
+175 Reading & Windsor, Henley-on-Thames& Bracknell
+176 West London, Rickmansworth & Staines
+
+Martin Phillips (aka Docmartin)
+DocMartin7644@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
