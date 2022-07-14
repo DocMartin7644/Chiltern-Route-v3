@@ -1,0 +1,7 @@
+22-08-16
+
+DMUGen1CDusk and DMUGen1CDusk-OR moved back to a better position.
+Lever controls reset to display correctly.
+Other gauges set to this DMU only
+
+Ammeter works best in Open Rails but is quite acceptable for MSTS.

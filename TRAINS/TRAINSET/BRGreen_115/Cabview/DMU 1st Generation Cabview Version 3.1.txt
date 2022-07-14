@@ -1,0 +1,62 @@
+DMU 1st Generation Cabview Version 2     
+31 Jan 2009
+Clive Heard (casperdog)
+
+DMU 1st Generation Cabview Version 3
+Stephen Wells (stephenrwells)
+This version started October 2012
+Revised January 2014
+Further revision July 2014 and August 2016
+
+Changes from the original:-
+
+cvf files changed to give improved Right and Left views.
+Needle positions moved to give better alignment and rpm needle coloured yellow.
+New night cabs also created.
+Dusk cabview created for use in any poor light conditions and the relevant night cabviews are included for both the 2 and 3 front window versions. 
+Also included are the relevent reverse cabviews.
+Now also has cabviews set specifically for use with Open Rails
+
+This version is uploaded with full permission of Clive Heard who also retains the original copyright.
+
+Installation.
+=======
+
+Go to your common.cab folder and back up or rename your current DMUGen1 folder.
+
+The cvf files are all set up for the Common Cab route. 
+
+Unzip the DMU 1st Generation Cabview Version 3 folder to somewhere safe, then copy and paste the DMUGen1 folder into your Common.Cab folder.
+
+Copy and paste the Cabview folder into the folder of your chosen DMU.
+
+Open the eng file with wordpad, conTEXT or similar.
+ 
+Find the CABVIEW entry. 
+
+MSTS
+=====
+
+Change this to  DMUGen1C.cvf  for 3 screen Classes 
+            or  DMUGen1aC.cvf  for 2 screen  Classes
+
+For the "Dusk" view change this to  DMUGen1CDusk.cvf  for 3 screen Classes 
+                                or  DMUGen1aCDusk.cvf  for 2 screen Classes.
+
+Open Rails
+========
+
+Change this to  DMUGen1C-OR.cvf  for 3 screen Classes 
+            or  DMUGen1aC-OR.cvf  for 2 screen  Classes
+
+For the "Dusk" view change this to  DMUGen1CDusk-OR.cvf  for 3 screen Classes 
+                                or  DMUGen1aCDusk-OR.cvf  for 2 screen Classes
+
+The relevant night cab will be automatically activated in tunnels and night time. 
+
+See also the original readmes.
+
+SRWells
+July 2014
+
+Version 3.1

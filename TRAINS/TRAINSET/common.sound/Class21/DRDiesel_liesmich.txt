@@ -1,0 +1,31 @@
+Dieser Sound kommt dem Sound der DR Diesel Loks sehr nahe. Ich bitte zu berücksichtigen, daß ich das alles aus dem Kopf, der Erinnerung mache.
+
+Die DRD*.sms Dateien basieren auf der Originalen Dash9*.sms Sound Dateien. Die Variablen habe ich aus mehreren andern *.sms Freeware Dateien abgeschrieben und gelegentlich verändert und angepasst. Ich bin (leider) nicht der Erfinder der *.sms Dateien!
+
+Diesen Sound habe ich aus versch. Soundkomponenten anderer Freeware gemixt, gegebenenfalls verändert und gemischt!
+
+Installation:
+
+Im MSTS Train Simulator\Trains\Trainset ein Verzeichniss common.snd erstellen, so dieses nicht durch die Installation einer Train Artisan Lok schon angelegt wurde. Im Verzeichniss common.snd ein Verzeichniss DRDiesel anlegen. Das ganze sollte dann so aussehen:
+
+..\Train Simulator\Trains\Trainset\common.snd\DRDiesel
+(die Groß - Kleinschreibung ist absolut unwesentlich)
+
+In dieses so erstellte Verzeichniss werden die Dateien dieses Soundpaketes hineinkopiert, oder dieses Zip in dem Verz. entpacken. Danach kann man diesen Sound beliebig vielen Loks zuordnen. Man muss nur die *.sms Dateien in das Verz. Sound der Lok kopieren und den Verweis der *.sms in der *.eng Datei der Lok ändern. Beispiel aus einer beliebigen DR Lok *.eng:
+
+Vorher: Sound (	"GP38Eng.sms" )
+
+Nachher: Sound ( "DRDeng.sms" )
+
+Das gleiche dann für die *.cab.sms
+
+Wohlgemerkt, im Verzeichniss der Lok MUSS ein Verzeichniss Sound angelegt sein, oder werden, in welches die beiden *.sms Dateien hinein kopiert werden.
+
+Die verwendeten Sounddateien sind aus Freeware Soundpaketen und von mir etwas nachgesampelt. Die SMS Dateien sind laut Lizenzvertrag mit MS frei verwendbar.
+
+(c) Werner Spieker: für diese FREEWARE - SOUND Einbindung in den MSTS, der von Jan und Jedermann beliebig verändert werden darf, nett wäre nur eine kleine Mitteilung an mich (ist aber kein muss).
+
+Werner Spieker
+wspieker@onlinehome.de
+
+Diese liesmich Datei können Könner von mir aus ins englische, oder sonstige Sprachen übersetzen!

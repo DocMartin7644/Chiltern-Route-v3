@@ -1,0 +1,1 @@
+FreightAnim ( ..\\common.Loads\\RCH_Containers\\xxxxxx.s 0.0 3.0 0 )

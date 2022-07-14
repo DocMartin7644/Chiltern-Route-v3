@@ -1,0 +1,8 @@
+
+ Inside (
+ PassengerCabinFile ( "..\\..\\aliased\\Mk1PassengerViews\\Mk1FirstInterior.s"	)
+ PassengerCabinHeadPos ( 0.40 2.475 -2.05 )
+ RotationLimit ( 45 120 0 )
+ StartDirection ( 0 0 0 )
+ Sound ("GenFreightWag1.sms" )
+ )

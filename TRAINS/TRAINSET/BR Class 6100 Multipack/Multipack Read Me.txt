@@ -1,0 +1,67 @@
+Many thanks to Reg Furniss for allowing these reskins taken from his 5100 Class BR Green Loco 5199.
+
+
+This is a set of twelve of these locos. 
+
+
+The locos require the two cylinder sound set and the Prairie Tank Cabview (UKTS ID 2910 and 8519). To install the Cabview unpack the Prairie Cab Zip file to a temporary location and rename the directory Tanker to Cabview. Then copy this into the BR6100 Multipack directory.
+
+These locos were built for the London area suburban traffic and as such are ideal for the London end of the Paddington Penzance.
+
+
+The Locos are as follows :-
+
+6101
+This was based at Reading throughout the fifties. It was last recorded at Birmingham (Tyseley) in 1962.
+Its allocation here is Reading.
+
+6103
+this was allocated to Reading for virually the whole period between 1950 and 1963. It is said to have been based at Exeter in 1955.
+Its allocation here is Reading.
+
+6111
+This was allocated to Oxford bewtween 1948 and 1965 apart from a brief spell at Old Oak Common in the late fifties. This one has been given a green livery.
+Its allocation here is Old Oak Common.
+
+6118
+This was allocated to Didcot in the early fifties then went to Birmingham (Tyseley), was at Severn Tunnel Junction form 1959 to 1962 and ended up at Reading.
+Its allocation here is Severn Tunnel Junction.
+
+6135
+This was allocated to Old Oak Common from 1948 to 1963. 
+It ended it's days at Southall.
+Its allocation here is Old Oak Common.
+
+6136
+This was allocated to Slough through the fifties and ended up at Didcot.
+Its allocation here is Slough.
+
+6141
+Apart from a couple of spells at Southall this was an Old Oak Common loco.
+Its allocation here is Old Oak Common.
+
+6142
+This was an Old Oak Common loco throughout.
+Its allocation here is Old Oak Common.
+
+6155
+This was based at Old Oak common for at least the first half of the fifties. It was allocated to Severn Tunnel Junction in 1959 and 1960, was at Taunton in 1962 and ended its working life at Worcester. This one has been given a green livery.
+Its allocation here is Severn Tunnel Junction.
+
+6156
+This was based at Southall throughout apart from a brief spell in Oxford in the early sixties.
+Its allocation here is Southall.
+
+6164
+This was at slough throught the fifties then Didcot in 1960, Old Oak Common in 1962 and ended at Reading in 1963.
+Its allocation here is Slough.
+
+6165
+This was allocated to Southall from 1950 to the end of steam.
+Its allocation here is Southall.
+
+
+The above information was taken from the Locosheds website (www.locosheds.co.uk)
+
+Numbers 6111 and 6155 are in green livery, the rest are black.
+

@@ -1,0 +1,21 @@
+These are reskins of David Robinson's original, many thanks to Dave for permission and thanks to Rick Gibb for updating the engine and tender.
+
+The two cylinder sound set (ID:2910 and 2919) is required along with the crew aliases ID 7759 and 7703.
+
+Note that all four individual locos and the tender can have their lamps configured. Go to folder Lamps for details.
+
+These locos were allocated to nearby Neasden (14D) until that shed closed in 1962 when they moved to Cricklewood.
+ 
+Here are the numbers and the coupling type.
+
+
+76040	Automatic
+76041	Chain
+76042	Automatic
+76043	Chain
+
+
+
+
+To install just run the program supplied.
+

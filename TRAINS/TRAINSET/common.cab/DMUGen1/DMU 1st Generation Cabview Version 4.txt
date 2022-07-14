@@ -1,0 +1,81 @@
+
+
+DMU 1st Generation Cabview Version 4
+====================================
+
+The front views have been slightly improved but they still aren't as good as I would like - I'm not very good with graphics
+
+This version is only for use with Open Rails and its improved operations and effects. 
+The original day cabview has been replaced by the Dusk version as standard enabling better effects in the rain, mist, fog and early morning/late evening as visibility and light changes without the need to select the desired cabview. Newer versions of Open Rails also alter the brightness of the cab view as the amount of daylight changes.
+I have for a long time found that the "Dusk" view is quite satisfactory in bright sunlight. Therefore, the label "Dusk" has been removed as it is no longer needed.
+
+There are now three versions for each of the two or three front window cabviews:-
+
+  These two are for original MSTS engine files.
+  =============================================
+    
+    DMUGen1C
+    DMUGen1AC
+
+  These two are for Open Rails engine files as created by Darwin Smith
+  ====================================================================
+   
+  These are in in UKTS 39002
+  Please read his installation notes first before using.
+ 
+    DMUGen1C-OR
+    DMUGen1AC-OR
+
+  Some Ist Gen DMU's had an automatic gearbox so these two are for them
+  ===================================================================== 
+ 
+    DMUGen1CAu-OR
+    DMUGen1ACAu-OR
+
+ Again these are only Open Rails configured DMUs
+
+
+Installation.
+=============
+
+Go to your common.cab folder and back up or rename your current DMUGen1 folder.
+
+The cvf files are all set up for the Common.Cab route. 
+
+Unzip the DMU 1st Generation Cabview Version 4 folder to somewhere safe, then copy and paste the DMUGen1 folder into your Common.Cab folder allowing to overwrite when prompted - this is very important.
+
+Open either Cabview 2 window or Cabview 3 window folder and copy and paste its Cabview folder into the folder of your chosen DMU.
+
+Open the eng file with wordpad, conTEXT or similar.
+ 
+Find the CABVIEW entry. 
+
+Original MSTS
+=============
+
+Change this to  DMUGen1C.cvf  for 3 screen Classes 
+            or  DMUGen1aC.cvf  for 2 screen  Classes
+
+
+Open Rails
+==========
+
+Change this to  DMUGen1C-OR.cvf  for 3 screen Classes 
+            or  DMUGen1aC-OR.cvf  for 2 screen  Classes
+
+Open Rails Automatic Gearbox
+============================
+
+Change this to  DMUGen1CAu-OR.cvf  for 3 screen Classes 
+            or  DMUGen1aCAu-OR.cvf  for 2 screen  Classes
+
+
+
+The relevant night cab will be automatically activated in tunnels and night time. 
+
+See also the original readmes.
+
+SRWells
+June 2022
+
+Version 4

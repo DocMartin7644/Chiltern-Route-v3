@@ -1,0 +1,54 @@
+Correcetd 'Deltic' Cab View for use with English Electric locomotives,
+in particular BR Class 55 'Deltic' locomotives. 
+
+Version 1, 6th Jan. 2002.
+
+As supplied by Kuju the the cover disc of January 2002's issue of PC FORMAT Magazine,
+(this is a UK Magazine, for those living in countries other than the UK).
+
+There are everal problems with the basic view, but this version adresses the problem of the 
+incorrect control functions. On the prototype, top left is the locomotive brake valve, 
+known in the UK as the Straight Air Brake. Below that, bottom left of the train brake, 
+the proportional brake valve. Top right is the throttle lever and under that the reverser.
+
+Unfortuantly, as supplied, these control funtions have been allocated to the wrong levers.
+
+This download corrects the funtions as lised above. The loco brake & throttle have not
+recieved any other attention than renaming in the .cvf file. For the reverser and the train
+brake it has been necessary of alter the order of the animation frames to make the 
+levers work correctly.
+
+I am considering a version 2 which will make further ammendments to the cab view, but as
+the necesssary skills are being learnt as I go along, this version may be several days
+away.
+
+I have tested this version on my machine and it performs without problems. 
+If you are to use it with the Kuju designed Class 55, also supplied on the PC FORMAT
+disc, and you wish to reatin the original cab view, I recommend that you rename the
+original cab view to somthing along the lines of bakCABVIEW.
+
+For reference I enclose the FPS, (frames per second) for the various setting;
+My own preference is for the 1024 x 768 x16.
+
+640 x 480 x 16, 26fps
+640 x 480 x 32, 24fps
+800 x 600 x 16, 21fps
+800 x 600 x 32, 17fps
+1024 x 768 x 16, 20fps
+1024 x 768 x 32. 10fps
+
+If you are to use the cab view with any of Mark Shipman's proposed fleet of Deltics + DP2, 
+then you can either follow the above instructions, or if you prefere delete the supplied 
+cab view, which I believe is the GP38 view, though Mark has I believe retained the name
+deltic.cvf so installing this version should be painless. (Famous last words!!!)
+
+I will finish by thanking, dispite all I have written about them, Kuju for taking the 
+'Bull by the horns' and providing us with a long over due British MSTS Cab View. 
+Dispite the errors there is great potential for cab views for most of the English Electric
+classes of locomotive.
+
+
+Bob Peach.
+Delticbob@btinternet.com
+
+Jan. 6th 2002.

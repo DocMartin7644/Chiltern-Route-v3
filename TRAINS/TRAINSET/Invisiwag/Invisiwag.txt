@@ -1,0 +1,19 @@
+Invisible wagon.
+
+
+Version 2
+
+By Ian Macmillan.
+
+
+The invisible wagon designed to carry a freight animation which can be anything such as a load, lamps, headboard etc. The animation can be shifted to place it anywhere required.
+
+A vacuum piped and an air piped version are provided.
+You can change the coupling by modifying the entry in the .wag file.
+
+
+Version two uses an new shape file after I was informed the the earlier version cast a shadow.
+The new version is very small and sits just under the rail. It is a single poly with a LOD of 1 metre.
+It needs no texture - it aliases to a texture in the main MSTS folder.
+
+I make no claim on ownership of this file. Anyone could make one so save yourself the bother and use this one instead. The small size is unimportant - its takes it's size from the .wag or .eng file.

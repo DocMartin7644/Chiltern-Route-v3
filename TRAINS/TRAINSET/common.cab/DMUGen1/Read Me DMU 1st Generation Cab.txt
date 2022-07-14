@@ -1,0 +1,45 @@
+DMU 1st Generation Cabview Version 2     
+31 Jan 2009
+Clive Heard (casperdog)
+
+
+A DMU 1st generation cabview which can be used to replace what ever cabview you are using.Two versions are available: 2 and 3 front window views.The actual driving desk is the same for both cabs. 
+
+As I live abroad, I have limited reference material and so some of the controls/positions are not necessarily correct. This is an all purpose cab and not a copy of one particular class. The driving desk is based on a Class 108 with modifications and the side views from a Class 114.  Apologies to the purists.
+
+To install the cab: Unzip the file (I usualy set the download location as the desktop). 
+
+Open the downloaded folder and copy and paste the cabview folder into the loco of your choice. This will over-write the old cabview.
+
+NOTE: If you want to keep the original cabview, rename the folder cabvieworiginal or similar before copying the new cabview.
+ 
+
+Open the eng file with wordpad or similar.
+ 
+Find the CABVIEW entry. 
+
+Change this to  DMUGen1.cvf for 3 screen Classes             
+            OR  DMUGen1a.cvf  for 2 screen  Classes
+
+NOTE: for those who installed my version 1 cab, i have left the .cvf entry for 3 screen classes the same so it is just a matter of overwriting the Cabview folder
+
+
+The cabview forward position has now been brought forward so there shouldn't be any conflicts with 'freight animations'.
+
+IMPORTANT!!! BRAKE GAUGE PROBLEMS
+Because this cab is a '1 fits all', the brake gauges may not show the correct readings after the cab is installed( I had 5 out of 12 DMU classes)
+
+PROBLEM 1
+This seems to be a problem in the .eng file. Changing the value of the following line seems to solve the problem. The line should read:
+
+TrainBrakesControllerMaxSystemPressure( 21 )
+
+If you do make this alteration I suggest you copy the original .eng file to somewhere safe before making any changes, so you can revert easily if problems occur.	
+
+PROBLEM 2
+
+ YOUR UNIT HAS AIR BRAKES. I HAVE INCLUDED THE METHOD THAT I USE TO CHANGE TO VACUUM BRAKES.It might not be the best way or technically correct but it does the job. IF YOU DO TRY TO CHANGE THE BRAKING SYSTEM DONT BLAME ME  IF YOUR COMPUTER SELF DESTRUCTS.
+
+
+
+Anyone is welcome to use/modify the cab or parts without asking my permission. 

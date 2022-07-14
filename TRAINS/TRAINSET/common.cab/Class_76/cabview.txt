@@ -1,0 +1,53 @@
+    Blood sweat and tears Cabview and Skins by Steve Sherratt 25 12 2002
+      
+   Version 1.0
+
+
+   British Rail EM1 class 76  or EM2 Class 77 1500 volt dc electric locomotive cabviews
+
+
+   This common cabview enables you to use just one cabview for all your EM1 and EM2 locomotives .
+
+  Note press "p" and left side window will open or close , also panto will go up and down so remember to close   the window or the loco has no power .
+
+
+
+
+1. Backup your MSTS Installation
+
+2. create a folder C:\Program Files\Microsoft Games\TrainSimulator\TRAINS\TRAINSET\EM1_EM2.cab
+
+    NOTE  MAKE SURE YOU DONT SPELL THE PATH WRONG   \EM1_EM2.cab     DONT FORGET THE FULL STOP !
+
+
+3. create a folder C:\Program Files\Microsoft Games\TrainSimulator\TRAINS\TRAINSET\EM1_EM2.cab\cab
+
+    NOTE  MAKE SURE YOU DONT SPELL THE PATH WRONG   \EM1_EM2.cab\cab     DONT FORGET THE FULL STOP !
+
+     
+
+4. unzip files to C:\Program Files\Microsoft Games\TrainSimulator\TRAINS\TRAINSET\EM1_EM2.cab\cab
+
+5. now decide which EM1`s or EM2`s are to use this common cabview 
+
+6. E.G. C:\Program Files\Microsoft Games\Train Simulator\TRAINS\TRAINSET\76029\CABVIEW
+
+7. now delete all files from within the  76029\cabview    folder
+
+8. now move acela.cvf from    C:\Program Files\MicrosoftGames\TrainSimulator\TRAINS\TRAINSET\EM1_EM2.cab\cab
+
+   to C:\Program Files\Microsoft Games\Train Simulator\TRAINS\TRAINSET\76029\CABVIEW
+
+  (Now all you have to do is delete the cabview files for each EM2 and EM1 locos and then just copy the acela.cvf to the empty folder) 
+
+ im sorry its a bit of a mouth full but follow the steps to the letter and its ok .
+ 
+This model is for free distribution only.  Please do not distribute onto 
+other sites or CD.  This model is only for distribution on www.uktrainsim.com,
+www.msts.nl or www.train-sim.com
+
+   Hope you enjoy this new cabview steve sherratt
+
+    Email     stevewaterman@optusnet.com.au 
+
+   

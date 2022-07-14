@@ -1,0 +1,42 @@
+Left Hand Drive cabview for the Acela
+
+This file will add a left hand drive cabview to the Acela.
+It will not overwrite the existing cabview. It is intended for use with locos which alias to the Acela.
+
+A view from the rear cab (with non working controls and gauges) replaces the right hand view. This is handy for shunting and running backwards.
+
+
+INSTALLATION
+____________
+
+Unzip to a temporary folder and copy the Acela folder to your trainset folder. This will add the additional files.
+
+USING THE CABVIEW ON YOUR LOCOS.
+________________________________
+
+Copy the file AcelaLHD.cvf to the cabview folder of your loco and delete acela.cvf
+
+Open the loco's .eng file and find the line...
+
+CabView ( acela.cvf )
+
+and replace it with...
+
+CabView ( acelaLHD.cvf )
+
+
+Alternatively, rename the acelaLHD.cvf to replace the existing .cvf file.
+
+You will find a spare copy of the Acela.cvf in the Acela/Cabview folder.
+
+
+I have also included a Left hand drive .cvf for the class 92. Just replace the existing one.
+
+
+
+These files are modifications of the MSTS default files and are covered by the usual copywrite rules. Loco builders are free to include them in their uploads. (But I'd rather have a proper cab)
+Please include these instructions so as the user can modify their other locos.
+
+Ian Macmillan
+
+ian@BCLR.co.uk

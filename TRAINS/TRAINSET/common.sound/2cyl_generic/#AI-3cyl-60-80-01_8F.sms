@@ -1,0 +1,448 @@
+SIMISA@@@@@@@@@@JINX0x1t______		
+
+
+Tr_SMS (		
+
+Skip (	#AI-2cyl-60-80-01.sms	
+
+		AI and Helper loco .sms for non-drivable AI engines.
+		This file allows AI-Helper locos to play the same detailed sounds as a player loco, the sounds correctly varying with travel speed.
+
+		This version for 6ft 0in diameter driving wheels, with 80% frequency factor.
+
+		Also enables AI/Helper loco's to be heard in ALL views,
+		ie. PassengerView & CabView, as well as the default of ExternalView.
+
+		Finally, AI loco's will now:-
+		 - randomly sound their whistle on pulling away from stationary (about 50% probability; 1 of 2 whistles).			
+		 - sound to wheelslip just after pulling away from stationary (about 25% probability).			
+		 - emit a brake squeal sound on slowing to a halt.			
+					
+		Version 1.10			
+		Sept 2002			
+		Sms editing by Stuart Williamson - all rights reserved.			
+	 	Copyright © 2002 Stuart Williamson			
+)					
+
+	ScalabiltyGroup( 1				
+		Activation (			
+			ExternalCam		()
+			PassengerCam 	()	
+			CabCam		()
+			Distance    	( 750 )	
+		)							
+		Deactivation (							
+			Distance    	( 750 )					
+		)							
+		Streams ( 3							
+			Stream (						
+				Volume ( 1 )					
+				Priority ( 7 )					
+				Triggers ( 7					
+					Initial_Trigger  ( DisableTrigger( 5 ) )				
+
+					Initial_Trigger  ( 				StartLoop ( 1 File ( "x_2cyl_power_cruise0.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+					Variable_Trigger ( Speed_Inc_Past 	5.0	ReleaseLoopRelease () )		
+					Variable_Trigger ( Speed_Inc_Past 	5.0	EnableTrigger( 5 ) )		
+
+					Random_Trigger ( Delay_Min_Max ( 2 8 )  Volume_Min_Max ( 0.2 0.4 )				
+												PlayOneShot ( 6	
+													File ( "../../scotsman/sound/x_fs_random5.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random7.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random9.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random11.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random12.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random13.wav" -1 )
+													SelectionMethod ( RandomSelection )
+						)							
+					)								
+					Variable_Trigger ( Speed_Dec_Past	5.0	StartLoop ( 1 File ( "x_2cyl_power_cruise0.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+					Variable_Trigger ( Speed_Dec_Past	5.0	DisableTrigger( 5 ) )						
+				)									
+				VolumeCurve ( 									
+					SpeedControlled								
+					CurvePoints ( 9								
+						0		1
+						1		0.7
+						2		0.4
+						3		0.1
+						4		0.05
+						5		0
+						7		0
+						9		1
+						150		1
+					)			
+					Granularity ( 0.05 )			
+				)				
+				FrequencyCurve ( 				
+					SpeedControlled			
+					CurvePoints ( 4			
+						0		11025
+						7		11025					
+						50		22000					
+						150		23000					
+					)								
+					Granularity ( 25 )								
+				)									
+			)										
+			Stream (										
+				Volume ( 0.8 )									
+				Priority ( 7 )									
+				Triggers ( 4									
+					Variable_Trigger ( Speed_Inc_Past	0.1	SetStreamVolume ( 1 ) )						
+					Variable_Trigger ( Speed_Inc_Past	0.2	StartLoop ( 4 						
+													File ( "../uk_shared/x_steam_rail_high1a.wav" -1 )
+													File ( "../uk_shared/x_steam_rail_high1b.wav" -1 )
+													File ( "../uk_shared/x_steam_rail_high1c.wav" -1 )
+													File ( "../uk_shared/x_steam_rail_high1d.wav" -1 )
+													SelectionMethod ( RandomSelection ) ) )
+					Variable_Trigger ( Speed_Dec_Past	0.2	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	0.1	SetStreamVolume ( 0 ) )						
+				)									
+				VolumeCurve ( 									
+					SpeedControlled								
+					CurvePoints ( 8								
+						0		0					
+						0.2		0.1					
+						10		0.2					
+						15		0.3					
+						20		0.4					
+						25		0.5					
+						30		0.6					
+						150		0.7					
+					)			
+					Granularity ( 0.1 )			
+				)				
+				FrequencyCurve ( 				
+					SpeedControlled			
+					CurvePoints ( 5			
+						-150		18000
+						-40		16000
+						0		6000
+						40		16000
+						150		18000
+					)			
+					Granularity ( 100 )			
+				)				
+			)					
+			Stream (					
+				Volume ( 1 )									
+				Priority ( 7 )									
+				Triggers ( 61									
+					Variable_Trigger ( Speed_Inc_Past	0.01	PlayOneShot ( 1 File ( "x_silence_0-10.wav" -1 ) SelectionMethod ( RandomSelection ) ) )						
+					Variable_Trigger ( Speed_Inc_Past	0.02	StartLoopRelease ( 2						
+													File ( "x_2cyl_power_cruise1a.wav" -1 )
+													File ( "x_2cyl_power_cruise1b.wav" -1 )
+													SelectionMethod ( SequentialSelection ) ) )
+					Variable_Trigger ( Speed_Inc_Past	0.01	SetStreamVolume ( 1 ) )						
+
+					Variable_Trigger ( Speed_Inc_Past	1.03	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Inc_Past	1.03	StartLoop( 1 File ( "x_2cyl_power_cruise2.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Inc_Past	1.64	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Inc_Past	1.64	StartLoop( 1 File ( "x_2cyl_power_cruise3.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Inc_Past	2.40	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	2.40	StartLoop( 1 File ( "x_2cyl_power_cruise4.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	3.32	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	3.32	StartLoop( 1 File ( "x_2cyl_power_cruise5.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	4.53	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	4.53	StartLoop( 1 File ( "x_2cyl_power_cruise6.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	6.20	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	6.20	StartLoop( 1 File ( "x_2cyl_power_cruise7.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	8.46	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	8.46	StartLoop( 1 File ( "x_2cyl_power_cruise8.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	10.98	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	10.98	StartLoop( 1 File ( "x_2cyl_power_cruise9.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	13.77	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	13.77	StartLoop( 1 File ( "x_2cyl_power_cruise10.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	17.24	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	17.24	StartLoop( 1 File ( "x_2cyl_power_cruise11.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	21.30	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	21.30	StartLoop( 1 File ( "x_2cyl_power_cruise12.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	26.09	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	26.09	StartLoop( 1 File ( "x_2cyl_power_cruise13a.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	31.96	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	31.96	StartLoop( 1 File ( "x_2cyl_power_cruise13b.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	39.15	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	39.15	StartLoop( 1 File ( "x_2cyl_power_cruise13c.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	39.15	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	39.15	StartLoop( 1 File ( "x_2cyl_power_cruise13b.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	31.96	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	31.96	StartLoop( 1 File ( "x_2cyl_power_cruise13a.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	26.09	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	26.09	StartLoop( 1 File ( "x_2cyl_power_cruise12.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	21.30	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	21.30	StartLoop( 1 File ( "x_2cyl_power_cruise11.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	17.24	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	17.24	StartLoop( 1 File ( "x_2cyl_power_cruise10.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	13.77	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	13.77	StartLoop( 1 File ( "x_2cyl_power_cruise9.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	10.98	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	10.98	StartLoop( 1 File ( "x_2cyl_power_cruise8.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	8.46	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	8.46	StartLoop( 1 File ( "x_2cyl_power_cruise7.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	6.20	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	6.20	StartLoop( 1 File ( "x_2cyl_power_cruise6.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	4.53	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	4.53	StartLoop( 1 File ( "x_2cyl_power_cruise5.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Dec_Past	3.32	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	3.32	StartLoop( 1 File ( "x_2cyl_power_cruise4.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Dec_Past	2.40	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	2.40	StartLoop( 1 File ( "x_2cyl_power_cruise3.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Dec_Past	1.64	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	1.64	StartLoop( 1 File ( "x_2cyl_power_cruise2.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Dec_Past	1.03	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	1.03	StartLoopRelease ( 2						
+													File ( "x_2cyl_power_cruise1a.wav" -1 )
+													File ( "x_2cyl_power_cruise1b.wav" -1 )
+													SelectionMethod ( SequentialSelection ) ) )
+					Variable_Trigger ( Speed_Dec_Past	0.01	ReleaseLoopRelease () )	
+					Variable_Trigger ( Speed_Dec_Past	0.01	SetStreamVolume ( 0 ) )	
+				)				
+				FrequencyCurve (				
+					SpeedControlled			
+					CurvePoints ( 5			
+						-120		11200
+						-32		8820
+						0		8820
+						32		8820
+						120		11200
+					)			
+					Granularity ( 25 )			
+				)				
+			)					
+		)						
+	)				
+	ScalabiltyGroup( 0				
+		Activation (			
+			ExternalCam	()	
+			PassengerCam 	()	
+			CabCam		()
+			Distance    	( 750 )	
+		)			
+		Deactivation (			
+			Distance    	( 750 )	
+		)			
+		Streams ( 3			
+			Stream (		
+				Volume ( 1 )	
+				Priority ( 7 )	
+				Triggers ( 7	
+					Initial_Trigger  ( DisableTrigger( 5 ) )								
+
+					Initial_Trigger  ( 				StartLoop ( 1 File ( "x_2cyl_power_cruise0.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )				
+					Variable_Trigger ( Speed_Inc_Past 	5.0	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Inc_Past	5.0	EnableTrigger( 5 ) )						
+
+					Random_Trigger ( Delay_Min_Max ( 2 8 )  Volume_Min_Max ( 0.2 0.4 )								
+												PlayOneShot ( 6	
+													File ( "../../scotsman/sound/x_fs_random5.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random7.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random9.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random11.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random12.wav" -1 )
+													File ( "../../scotsman/sound/x_fs_random13.wav" -1 )
+													SelectionMethod ( RandomSelection )
+						)							
+					)			
+					Variable_Trigger ( Speed_Dec_Past	5.0	StartLoop ( 1 File ( "x_2cyl_power_cruise0.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )	
+					Variable_Trigger ( Speed_Dec_Past	5.0	DisableTrigger( 5 ) )	
+				)				
+				VolumeCurve ( 				
+					SpeedControlled			
+					CurvePoints ( 7			
+						0		1
+						1		0.7
+						2		0.4
+						3		0.2
+						4		0.1
+						5		0
+						5.1		1
+					)			
+					Granularity ( 0.05 )			
+				)				
+				FrequencyCurve ( 				
+					SpeedControlled			
+					CurvePoints ( 4			
+						0		11025
+						7		11025
+						50		16000
+						150		18000
+					)			
+					Granularity ( 25 )			
+				)				
+			)					
+			Stream(					
+				Skip( **** Random Whistle, Wheelslip & Brake  Squeal effects **** )				
+				Volume ( 1 )				
+				Priority( 7 )				
+				Triggers( 4									
+					Variable_Trigger ( Speed_Inc_Past	0.01	PlayOneShot ( 6						
+													File ( "../UK_Shared/x_whistle_ccw_mp_8f_01.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													File ( "../UK_Shared/x_whistle_ccw_mp_8f_01.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													File ( "../UK_Shared/x_whistle_ccw_mp_8f_01.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													SelectionMethod ( RandomSelection ) ) )
+					Variable_Trigger ( Speed_Inc_Past	0.5	PlayOneShot ( 8						
+													File ( "x_silence_0-10.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													File ( "x_2cyl_wheelslip_short.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													File ( "x_2cyl_wheelslip_long.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													SelectionMethod ( RandomSelection ) ) )
+					Variable_Trigger ( Speed_Dec_Past	3	StartLoopRelease ( 4						
+													File ( "../UK_Shared/x_brake_squeal1.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													File ( "../UK_Shared/x_brake_squeal2.wav" -1 )
+													File ( "x_silence_0-10.wav" -1 )
+													SelectionMethod ( RandomSelection ) ) )
+					Variable_Trigger ( Speed_Dec_Past 	0.1	ReleaseLoopRelease () )						
+				)									
+			)										
+			Stream (										
+				Volume ( 1 )									
+				Priority ( 7 )									
+				Triggers ( 61									
+					Variable_Trigger ( Speed_Inc_Past	0.01	PlayOneShot ( 1 File ( "x_silence_0-10.wav" -1 ) SelectionMethod ( RandomSelection ) ) )						
+					Variable_Trigger ( Speed_Inc_Past	0.02	StartLoopRelease ( 2						
+													File ( "x_2cyl_power_cruise1a.wav" -1 )
+													File ( "x_2cyl_power_cruise1b.wav" -1 )
+													SelectionMethod ( SequentialSelection ) ) )
+					Variable_Trigger ( Speed_Inc_Past	0.01	SetStreamVolume ( 1 ) )						
+
+					Variable_Trigger ( Speed_Inc_Past	1.03	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Inc_Past	1.03	StartLoop( 1 File ( "x_2cyl_power_cruise2.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Inc_Past	1.64	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Inc_Past	1.64	StartLoop( 1 File ( "x_2cyl_power_cruise3.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Inc_Past	2.40	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Inc_Past	2.40	StartLoop( 1 File ( "x_2cyl_power_cruise4.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Inc_Past	3.32	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	3.32	StartLoop( 1 File ( "x_2cyl_power_cruise5.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	4.53	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	4.53	StartLoop( 1 File ( "x_2cyl_power_cruise6.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	6.20	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	6.20	StartLoop( 1 File ( "x_2cyl_power_cruise7.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	8.46	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	8.46	StartLoop( 1 File ( "x_2cyl_power_cruise8.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	10.98	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	10.98	StartLoop( 1 File ( "x_2cyl_power_cruise9.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	13.77	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	13.77	StartLoop( 1 File ( "x_2cyl_power_cruise10.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	17.24	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	17.24	StartLoop( 1 File ( "x_2cyl_power_cruise11.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	21.30	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	21.30	StartLoop( 1 File ( "x_2cyl_power_cruise12.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	26.09	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	26.09	StartLoop( 1 File ( "x_2cyl_power_cruise13a.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	31.96	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	31.96	StartLoop( 1 File ( "x_2cyl_power_cruise13b.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Inc_Past	39.15	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Inc_Past	39.15	StartLoop( 1 File ( "x_2cyl_power_cruise13c.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	39.15	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	39.15	StartLoop( 1 File ( "x_2cyl_power_cruise13b.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	31.96	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	31.96	StartLoop( 1 File ( "x_2cyl_power_cruise13a.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	26.09	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	26.09	StartLoop( 1 File ( "x_2cyl_power_cruise12.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	21.30	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	21.30	StartLoop( 1 File ( "x_2cyl_power_cruise11.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	17.24	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	17.24	StartLoop( 1 File ( "x_2cyl_power_cruise10.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	13.77	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	13.77	StartLoop( 1 File ( "x_2cyl_power_cruise9.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	10.98	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	10.98	StartLoop( 1 File ( "x_2cyl_power_cruise8.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	8.46	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	8.46	StartLoop( 1 File ( "x_2cyl_power_cruise7.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	6.20	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	6.20	StartLoop( 1 File ( "x_2cyl_power_cruise6.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	4.53	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	4.53	StartLoop( 1 File ( "x_2cyl_power_cruise5.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )
+
+					Variable_Trigger ( Speed_Dec_Past	3.32	ReleaseLoopRelease () )
+					Variable_Trigger ( Speed_Dec_Past	3.32	StartLoop( 1 File ( "x_2cyl_power_cruise4.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Dec_Past	2.40	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	2.40	StartLoop( 1 File ( "x_2cyl_power_cruise3.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Dec_Past	1.64	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	1.64	StartLoop( 1 File ( "x_2cyl_power_cruise2.wav" -1 ) SelectionMethod ( SequentialSelection ) ) )						
+
+					Variable_Trigger ( Speed_Dec_Past	1.03	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	1.03	StartLoopRelease ( 2						
+													File ( "x_2cyl_power_cruise1a.wav" -1 )
+													File ( "x_2cyl_power_cruise1b.wav" -1 )
+													SelectionMethod ( SequentialSelection ) ) )
+					Variable_Trigger ( Speed_Dec_Past	0.01	ReleaseLoopRelease () )						
+					Variable_Trigger ( Speed_Dec_Past	0.01	SetStreamVolume ( 0 ) )						
+				)									
+				FrequencyCurve (				
+					SpeedControlled			
+					CurvePoints ( 5			
+						-120		11200
+						-32		8820
+						0		8820
+						32		8820
+						120		11200
+					)			
+					Granularity ( 25 )			
+				)				
+			)					
+		)						
+	)							
+)								
+

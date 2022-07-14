@@ -1,0 +1,18 @@
+HR Passenger Tank Cab
+
+Installation Instructions:
+
+This cab unzips into a 'CABVIEW' folder which can be used to replace the cabview folder of the MSTS locomotive where you wish to install it.
+
+Please back up any MSTS files before installation.
+
+
+Copyright:
+
+This cab view is provided as freeware and may be freely distributed on a not for profit basis.  It may not be sold or re-sold.
+
+The author, Darwin Smith, may be contacted by e-mail - darwinesmith@yahoo.co.uk
+
+Produced using Train-Sim Modeller and Paint Shop Pro 7.
+
+

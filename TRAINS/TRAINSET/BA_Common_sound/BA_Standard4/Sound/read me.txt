@@ -1,0 +1,10 @@
+Standard 4 sound set for the SVR Std4.
+
+This is a set of sounds for the SVR Std4 compiled and edited by Andy Hardy. To use these sounds you will need to backup your BA_Standard4 sound set found in BA_Common_Sounds.
+
+Once backed up copy and paste this file into that folder and overwrite when prompted.
+This is Andys first freeware release and he would like some feedback in the forum please.
+
+Credits.
+Andy Hardy.Sounds.
+Mike Hambly.Text file/upload

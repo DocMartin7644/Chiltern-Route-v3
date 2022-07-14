@@ -1,0 +1,28 @@
+This is a pack of six LT GWR 57xx class Pannier Tank that were believed to be based at Neasden LT depot. 
+
+They are reskins of Frank Sandwell's GWR 57xx Pannier Tank and Frank also assisted with applying the LT logo and numbers. 
+Many thanks go to Frank for his assistance and permission to produce this pack.
+
+Thanks also go to Lew Price for permission to include his GWR Cab.
+
+The GWR Sound set (File ID: 6481) and the steam crew (File ID: 7706) are also required.
+
+The numbers are as follow :-
+ 
+
+L89
+L90
+L94
+L95
+L97
+L99
+
+The first three have Automatic Coupling and the last three Chain.
+
+To install just run the program supplied.
+
+
+
+
+
+

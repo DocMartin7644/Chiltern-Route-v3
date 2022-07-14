@@ -1,0 +1,30 @@
+Version 2.0
+Wheel rotation speed improved and braking beefed up a bit. One of the shape descriptions was faulty.
+
+
+These locos are all derived from Paul Mitchell's 4 loco pack (UKTS ID 18397), specifically number 80022.
+
+There are a total of 9 locos along with AI and "dead" versions, all of them (as far as I know) worked the Cambrian Routes in the years before the diesels arrived. 
+
+The locos are as follows :-
+
+Machynlleth Shed (89C)
+
+80097, 80098, 80099, 80101, 80105
+
+
+Shrewsbury Shed
+
+80100, 80102, 80136
+
+Oswestry Shed
+
+80131
+
+
+The above information was taken from a web site http://www.locosheds.co.uk
+For the purposes of this pack the above 4 Shrewsbury and Oswestry allocations have been given a shed code of 89A.
+The sound is now set to the 2 Cylinder sound set and the additional whistles (UKTS ID 2910 and 2919) rather than the Flying Scotsman. You will need to download and install these if you don't already have them. 
+ 
+
+Many thanks to Paul Mitchell for granting permission to reskin his original loco.

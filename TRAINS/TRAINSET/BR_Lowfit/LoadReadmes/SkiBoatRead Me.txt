@@ -1,0 +1,31 @@
+
+Thank you for downloading Ski Boats.
+
+Ski Boats is a Collection of 6 boats in different colors both on trailers and for use in the water. Also 3 covered boats (on trailer, in water and in water moored to buoy), 1 empty trailer and 1 mooring buoy.
+
+
+To install:  unzip and copy the *.s and *.sd files to your route's SHAPES folder, then copy the SkiBoat.ace file to your route's TEXTURES folder.  Copy the entries from the 'Ski_Boat_Refs.tex' file and paste in your route's ref file.  Start Trainsim Route Editor and the boats should be available.
+
+If you have any comments or problems I can be contacted as RAILBUG at Train-sim.com forums.
+---------------------------------------------------------------------------------------
+
+Legal Stuff
+
+
+This archive is freeware but it may not be uploaded to any internet site except Train-sim.com without the author's permission.  It may not be included in any payware or CD collections or payware routes.  NO MONEY MAY BE CHARGED FOR THIS, NO EXCEPTIONS.  It may be given away freelly to your friends, but must be complete with all files including this notice. The boats may be included in FREEWARE Routes only.
+
+The archive SkiBoat.zip and it's contents are Copyright 2003 by Harold West, Jr.
+
+This should not harm your computer in any way, if you think it did I'm not resposible.
+----------------------------------------------------------------------------------------- 
+
+Note to route designers: it would be nice if you gave me credit for my work in the read me file of your route (everyone likes to be remembered for thier work.), but considering how many files are in even a small route and how many places they come from it's easy to lose track.  So if you forget I'll understand and you won't be chased by a team of lawyers. ;)
+Now lets see some nice waterfront scenes.
+ 
+Smooth Sailing..... enjoy.
+
+                                Harold
+                                                                             03/02/2003
+
+
+

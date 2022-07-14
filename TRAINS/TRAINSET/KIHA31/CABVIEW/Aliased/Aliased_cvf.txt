@@ -1,0 +1,5 @@
+kiha31.cvf.............................Front cab
+
+kiha31_rv.cvf .......................Rear cab (does not have to be refered to in .eng file)
+
+kiha31_reversed.cvf............For units reversed (Not flipped) with cab trailing.

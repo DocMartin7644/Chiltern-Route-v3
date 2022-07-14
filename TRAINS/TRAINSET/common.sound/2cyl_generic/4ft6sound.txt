@@ -1,0 +1,5 @@
+Sound ( "..\\..\\common.sound\\2cyl_generic\\2c-80a-cab01.sms" )
+
+Sound ( "..\\..\\common.sound\\2cyl_generic\\2c-80a-eng01.sms" )
+
+Sound ( "..\\..\\common.sound\\2cyl_generic\\#AI-2cyl-46-80-01.sms" )

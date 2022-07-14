@@ -1,0 +1,26 @@
+This is a pack of eight Standard 5 locos that were associated with the line out of St Pancras.
+
+They are renumbers of David Robinson's originals and thanks to him for permission. Thanks also to Rick Gibb for updating the engine and tender files.
+
+The two cylinder sound set (File ID:2910 and 2919) is required as well as the crew alias (File ID: 7759 and 7703).
+
+
+These are the locos and allocations, 73000 and 73137 are automatic Coupling and the rest are Chain.
+
+
+73157	Cricklewood Early to Mid Sixties
+73158	Cricklewood Early to Mid Sixties
+73003	Leicester Midland Mid to Late Fifties
+73004	Leicester Midland Mid to Late Fifties
+73000	Nottingham Mid To Late Fifties
+73002	Nottingham Mid To Late Fifties
+73137	Derby Late Fifties to Early Sixties
+73159	Derby Late Fifties to Early Sixties 
+
+The lamps are configureable for each loco and tender, look in the folder Lamps for details.
+
+
+To install just run the program provided.
+
+
+

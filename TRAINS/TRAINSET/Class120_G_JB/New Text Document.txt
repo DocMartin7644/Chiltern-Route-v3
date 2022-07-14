@@ -1,0 +1,51 @@
+BR Class 120 Swindon built 3 car DMU. As built 1959 in BR green
+
+Based on the early MSTS Class 101 originally by James Hunt.
+
+**********************************************************
+
+"Totalling 194 cars, three batches of these Cross-Country sets were built, 49 sets in 1958 for the WR, 7 in 1959 for the ScR, and further 9 sets in 1961 for the WR. Their general reliability and good braking characteristics made them popular with drivers.
+British Railways placed the order with BUT in summer 56 for the equipment required for the 98 power cars and 47 trailers of the first batch. The order, along with equipment ordered by Cravens for 66 power cars and the 3 parcels cars, was valued at £830,000.
+The first batch was ordered for the WR's West Country dieselisation scheme, which it hoped to complete by the end of 1959. The sets were expected to work between Bristol & South Devon."
+
+http://www.railcar.co.uk/his120-129/120intro.htm
+
+The Swindon 3 Car sets were frequently seen in our area particularly on the Lincooln St. Marks to Nottingham route and also on excusrions and services to Skegness. Sadly only 59276 has been preserved on the Great Central Railway. A detailed history of the class can be found at the Railcar Association's web site. The following photographs recall these fine units during their final years of service.
+
+
+http://www.leytransport.i12.com/swin.htm
+
+http://www.leytransport.i12.com/mark.htm
+
+***************************************************************
+
+
+
+
+
+Bin patch required to drive from reverse cab.
+(press F9 select rear unit press 1 to enter rear(eng) cab)
+
+Alerter/ AWS enabled
+Vacuum braked with quick release as per prototype.
+Working rev counter.
+4 speed automatic gearbox.(Note not as prototype but required for engine sounds)
+
+
+Instructions for Driving.
+
+Normal controls as per MSTS.
+Throttle goes past 100% to 0% to allow coasting.
+Press V key for Wipers
+Press Shift+ numberpad 4 ( to activate alerter)
+Press Z key to cancel AWS.
+Includes a guards view (cam5) which can look up and down the platform (pan round)
+
+
+
+This is only a first attempt so it may not work on everyones system.
+
+
+Jon Bilton
+Merry Christmas
+Dec 2008

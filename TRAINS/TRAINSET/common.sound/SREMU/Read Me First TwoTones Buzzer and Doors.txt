@@ -1,0 +1,55 @@
+Replacement Emu Sounds With Realistic Two Tone Horn Sounds Using The Space Bar And The B Key.
+Includes Driver's Reply Buzzer Sound  By Northern Spirit.( Uses the V key. )
+Now with Door Open/Shut with guard's buzzer Sound By Northern Spirit ( Uses the P Key. )
+Alternative Doors Shut sound if you don't like the buzzer at the end of the origional. Just delete or rename the origional Doors_Shut file and remove the (No Buzzer) tag from the alternative.
+
+Horn Sounds  By Anthony Bowden ( BVE ) From His Excellent Class 323 Emu.
+Uploaded with his permission.
+Developed for MSTS by Dave Oston.
+Origional Engine Sounds By Gary Cox.
+Thanks to SalopianGrowler for his advice.
+
+
+Installation:
+
+1.Locate your EMU sound folder in the Trains, Trainset folder of Microsoft Train Simulator.
+2.Extract the enclosed files to a temperary location, 
+3.Copy the sound folder from the EMU_TTv2.zip to your UK EMU sound folder.
+4.Next Scroll down your EMU's Eng file using wordpad or similar and replace the sound entries with these(Copy And Paste)
+
+Sound (	"d9Eng.sms" )
+Sound (	"d9cab.sms" )
+
+6.Start MSTS and choose a UK EMU consist to hear the new sounds.
+
+
+7.Make sure your Eng file has the line ' WIPERS ( 0 1 0  )'  included in the setup so the V key works. 
+
+For example:
+ 				
+				(This is near the bottom of the .eng file)
+            
+            EngineBrakingButton( 0 1 0 )
+            DirControl ( -1 0 1 1 )
+            BellToggle( 0 1 0 )
+            AWS ( 0 1 0 )
+            Sanding ( 0 1 0 )
+            Horn ( 0 1 0 )
+            Vigilance ( 0 1 0 )
+            Headlights ( 0 0.25 1 0 )
+            Wipers ( 0 1 0 )                     
+
+
+Disclaimer:
+
+ I cannot accept any damage which  may occur, use at your own risk.
+
+
+
+Copyright:
+
+You May Use These Files But Please Give All Parties A Mention Thankyou.
+
+Feedback:
+
+Hitchshar@aol.com
