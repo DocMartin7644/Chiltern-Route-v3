@@ -5,8 +5,8 @@
 A route for Open Rails by DocMartin. 
 
 This route represents the two main lines passing through the Chiltern Hills to London as they were circa 1960. These lines are:
-- the ex-GWR/GCR from Banbury to Marylebone and Paddington via Princes Risborough
-- the High Wycombe and the ex-GCR/Metropolitan from Woodford Halse to Marylebone and Baker Street via Aylesbury
+- the ex-GWR/GCR from Banbury to Marylebone and Paddington via Princes Risborough and High Wycombe
+- the ex-GCR/Metropolitan from Woodford Halse to Marylebone and Baker Street via Aylesbury
 
 The connecting branches between the two routes are included. The line from Banbury to Didcot via Oxford also forms part of the route as well as a section of the Great Western main line from Paddington between Friars Lane and Southall. A considerable number of related branches are also included.  
 
