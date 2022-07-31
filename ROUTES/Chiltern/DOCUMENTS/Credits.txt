@@ -289,6 +289,10 @@ Andy Dunnett and Mark Wiles
 ---------------------------
 Oxford AEC Reliance
 
+Curt Esser
+----------
+Animated Factory
+
 Frank Eyer
 ----------
 Field Irrigator
@@ -382,6 +386,7 @@ Drive-in Warehouse
 Bicycle Sheds
 Flour Factory
 Hotel
+Industrial Building
 
 PascalvdS
 ---------
@@ -530,6 +535,7 @@ Sean Lim
 --------
 Large Chemical Drums
 Small U.S. Factory
+City Hospital
 
 Sean Lim & Jon Champ
 --------------------
@@ -571,6 +577,7 @@ John Mannion
 Beehives
 Parking Lot
 Library
+Cryogenics Building
 
 Robert C Mapplebeck
 -------------------
