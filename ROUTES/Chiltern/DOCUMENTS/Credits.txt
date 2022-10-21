@@ -254,6 +254,7 @@ Highway Bridges
 Dado
 ----
 Autoshop
+Raver Building
 
 Johann Dantiger
 ---------------
@@ -387,6 +388,7 @@ Bicycle Sheds
 Flour Factory
 Hotel
 Industrial Building
+Amersfoort Office 
 
 PascalvdS
 ---------
@@ -648,6 +650,7 @@ Road Underbridge
 Fiat 500
 Renault 3 axle Tipper Truck
 SCATS Warehouse
+Fire Station
 
 Larry Mullett
 -------------
@@ -714,6 +717,7 @@ Post Office
 Animated Sailboat
 Animated Sheep
 Multi-storey Car Park
+Office Building
 
 Ron Picardi
 -----------
@@ -847,6 +851,7 @@ School
 Engine Sheds
 Cafe GL22
 Houses
+Fire Station
 
 Ken Swenson
 -----------
