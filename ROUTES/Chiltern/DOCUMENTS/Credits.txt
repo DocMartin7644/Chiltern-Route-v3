@@ -164,6 +164,7 @@ Cinema
 Offices
 Docks
 Municipal Pool
+Eboshi Ironworks
 
 Trevor Burt
 -----------
@@ -732,6 +733,10 @@ Graham Pitt
 -----------
 Magnetic Platforms
 Platform Kit
+
+Simone Poole
+------------
+Factory Block
 
 Jonathan Powell
 ---------------
