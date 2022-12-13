@@ -140,6 +140,11 @@ Francesc Blanch "mestral"
 -------------------------
 Vespa trike van
 
+Rainer Bluhm
+------------
+Factory Buildings
+Old Factory
+
 Bruce Brayne
 ------------
 Pint Glass
@@ -164,7 +169,6 @@ Cinema
 Offices
 Docks
 Municipal Pool
-Eboshi Ironworks
 
 Trevor Burt
 -----------
@@ -179,6 +183,10 @@ Bedford S Bus
 Austin A40 Farina Mk1
 Morris Minor Vans
 Morris Minor Fire Engine
+
+Don Brynelsen
+-------------
+
 
 Byrails
 -------
@@ -676,6 +684,7 @@ Austin Healeys
 Ron Paludan
 -----------
 Stucco Warehouse
+Cozy Cafe
 
 PascalvdS
 ---------
@@ -734,8 +743,8 @@ Graham Pitt
 Magnetic Platforms
 Platform Kit
 
-Simone Poole
-------------
+Simon Poole
+-----------
 Factory Block
 
 Jonathan Powell
