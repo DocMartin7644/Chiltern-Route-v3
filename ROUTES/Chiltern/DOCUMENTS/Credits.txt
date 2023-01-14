@@ -546,6 +546,7 @@ Bentley MkVI
 Vintage Bentley
 Triumph 1300/Toledo
 Austin 7s
+Funfair Items
 
 Sean Lim
 --------
@@ -968,6 +969,10 @@ Pete Worsley
 ------------
 Canal Sections
 Narrow Boats
+
+Robert Wouters
+--------------
+Dutch Carousel
 
 Wurzeller
 ---------
