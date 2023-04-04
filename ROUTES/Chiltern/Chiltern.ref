@@ -5339,3 +5339,9 @@ Static (
     Align           ( None )
     Description     ( Doc_ParkRoyalBridgeBankWalls )
 )
+Static (
+    Class           ( "SCENERY" )
+    Filename        ( Doc_ParkRoyalReservoir.s )
+    Align           ( None )
+    Description     ( Doc_ParkRoyalReservoir )
+)
