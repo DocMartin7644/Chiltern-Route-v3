@@ -5345,3 +5345,9 @@ Static (
     Align           ( None )
     Description     ( Doc_ParkRoyalReservoir )
 )
+Static (
+    Class           ( "BRIDGES - FOOTBRIDGES" )
+    Filename        ( Doc_ParkRoyalFtBdg.s )
+    Align           ( None )
+    Description     ( Doc_ParkRoyalFtBdg )
+)
