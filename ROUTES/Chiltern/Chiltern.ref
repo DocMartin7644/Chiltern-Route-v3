@@ -5351,3 +5351,9 @@ Static (
     Align           ( None )
     Description     ( Doc_ParkRoyalFtBdg )
 )
+Static (
+    Class           ( "SPORTS" )
+    Filename        ( Doc_PavilionLarge.s )
+    Align           ( None )
+    Description     ( Doc_PavilionLarge )
+)
