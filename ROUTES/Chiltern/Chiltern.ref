@@ -5355,5 +5355,16 @@ Static (
     Class           ( "SPORTS" )
     Filename        ( Doc_PavilionLarge.s )
     Align           ( None )
-    Description     ( Doc_PavilionLarge )
+    Description     ( Doc_PavillionLarge )
 )
+Static (
+    Class           ( "BUILDINGS - SHOPS" )
+    Filename        ( Doc_ParkRoyalShops.s )
+    Align           ( None )
+    Description     ( Doc_ParkRoyalShops )
+)
+Static (
+    Class           ( "BUILDINGS - CINEMAS" )
+    Filename        ( Clump10.s )
+    Align           ( None )
+    Description     ( "Cinema Narrow Frontage" )
