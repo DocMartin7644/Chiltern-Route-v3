@@ -1,6 +1,6 @@
 SIMISA@@@@@@@@@@JINX0v1t______
 
-8
+11
 CarSpawnerList(
 ListName ( "London Inner" )
 70                                                       
@@ -615,3 +615,28 @@ CarSpawnerItem( "Doc_RTRoofbox.s" 13 )
 CarSpawnerItem( "Doc_RTL8N.s" 13  )
 CarSpawnerItem( "Doc_RTRoofbox.s" 13 )
 )
+CarSpawnerList(
+ListName ( "Animated Water Blue" )
+4
+CarSpawnerItem( "Doc_AnimatedWaterBlue_A.s" 10 )
+CarSpawnerItem( "Doc_AnimatedWaterBlue_A.s" 10 )
+CarSpawnerItem( "Doc_AnimatedWaterBlue_A.s" 10 )
+CarSpawnerItem( "Doc_AnimatedWaterBlue_A.s" 10 )
+)
+CarSpawnerList(
+ListName ( "Animated Water Green" )
+4
+CarSpawnerItem( "Doc_AnimatedWaterGreen_A.s" 10 )
+CarSpawnerItem( "Doc_AnimatedWaterGreen_A.s" 10 )
+CarSpawnerItem( "Doc_AnimatedWaterGreen_A.s" 10 )
+CarSpawnerItem( "Doc_AnimatedWaterGreen_A.s" 10 )
+)
+CarSpawnerList(
+ListName ( "Animated Water Grey" )
+4
+CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
+CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
+CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
+CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
+)
+
