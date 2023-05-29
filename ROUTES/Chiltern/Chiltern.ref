@@ -5465,3 +5465,23 @@ Static (
     Align           ( None )
     Description     ( Doc_PerivaleStnConcrete )
 )
+Static (
+    Class           ( "BUILDINGS - FACTORIES" )
+    Filename        ( Doc_AlpertonLaFactories.s )
+    Align           ( None )
+    Description     ( Doc_AlpertonLaFactories )
+)
+Static (
+    Class           ( "BUILDINGS - CHURCHES" )
+    Filename        ( Church03.s )
+    Align           ( None )
+    Description     ( Church03 )
+)
+static ( class ( "BUILDINGS - SHEDS & HUTS" ) filename ( "RustyNissenSmall.s" ) description ( "Rusty Nissen Hut Small" ) align ( NONE ) )
+
+Static (
+    Class           ( "TUNNELS - CUSTOM" )
+    Filename        ( Doc_PerivaleFootTunnel.s )
+    Align           ( None )
+    Description     ( Doc_PerivaleFootTunnel )
+)
