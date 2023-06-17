@@ -5485,3 +5485,41 @@ Static (
     Align           ( None )
     Description     ( Doc_PerivaleFootTunnel )
 )
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( OldOakWestBoxName.s )
+    Align           ( None )
+    Description     ( "Old_OakWestBoxName" )
+)
+
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( OldOakEngineBoxName.s )
+    Align           ( None )
+    Description     ( "Old_OakEngineBoxName" )
+)
+
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( OldOakEastBoxName.s )
+    Align           ( None )
+    Description     ( "Old_OakEastBoxName" )
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( LadbrokeGroveName.s )
+    Align           ( None )
+    Description     ( LadbrokeGroveName )
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( PortobelloJctBox.s )
+    Align           ( None )
+    Description     ( "Portobello Jct Signal Box" )
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( PortobelloJctBoxName.s )
+    Align           ( None )
+    Description     ( PortobelloJctBoxName )
+)

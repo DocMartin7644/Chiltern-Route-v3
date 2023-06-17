@@ -118,6 +118,7 @@ LNWR Level Crossing Gates
 BR Bus Shelters
 LMS Type 13 Signal Box
 LNW Carterhouse Junction Signal Box
+LNW Standon Bridge Signal Box
 
 Captain Bazza
 -------------

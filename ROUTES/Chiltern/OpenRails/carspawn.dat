@@ -1,6 +1,6 @@
 SIMISA@@@@@@@@@@JINX0v1t______
 
-11
+12
 CarSpawnerList(
 ListName ( "London Inner" )
 70                                                       
@@ -639,4 +639,9 @@ CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
 CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
 CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
 )
-
+1
+CarSpawnerList(
+ListName ( "Horse_rider" )
+1
+CarSpawnerItem( "Horse_rider.s" 8 ) )
+)
