@@ -4931,14 +4931,14 @@ Align ( None )
 Description ( "Park Royal Level Crossing" )
 )
 Static (
-    Class           ( "BUILDINGS - FACTORIES" )
+    Class           ( "STRUCTURES - INDUSTRIAL" )
     Filename        ( Plant12a.s )
     Align           ( None )
     Description     ( Plant12a )
 )
 
 Static (
-    Class           ( "BUILDINGS - FACTORIES" )
+    Class           ( "STRUCTURES - INDUSTRIAL" )
     Filename        ( Plant12b.s )
     Align           ( None )
     Description     ( Plant12b )
@@ -4980,10 +4980,10 @@ Static (
 )
 
 Static (
-    Class           ( "BUILDINGS - FACTORIES" )
+    Class           ( "INDUSTRIAL - CLUTTER" )
     Filename        ( Plant12h.s )
     Align           ( None )
-    Description     ( Plant12h )
+    Description     ( "Pipe Stack" )
 )
 
 Static (
@@ -5134,7 +5134,7 @@ Static (
 )
 
 Static (
-    Class           ( "BUILDINGS - FACTORIES" )
+    Class           ( "BUILDINGS - SHEDS&HUTS" )
     Filename        ( Plant32c.s )
     Align           ( None )
     Description     ( Plant32c )
@@ -5177,21 +5177,14 @@ Static (
     Description     ( Plant40d )
 )
 Static (
-    Class           ( "BUILDINGS - FACTORIES" )
+    Class           ( "INDUSTRIAL - CLUTTER" )
     Filename        ( Plant13b.s )
     Align           ( None )
     Description     ( Plant13b )
 )
 
 Static (
-    Class           ( "BUILDINGS - FACTORIES" )
-    Filename        ( Plant13a.s )
-    Align           ( None )
-    Description     ( Plant13a )
-)
-
-Static (
-    Class           ( "BUILDINGS - FACTORIES" )
+    Class           ( "BUILDINGS - SHEDS&HUTS" )
     Filename        ( Plant13c.s )
     Align           ( None )
     Description     ( Plant13c )
@@ -5212,14 +5205,14 @@ Static (
 )
 
 Static (
-    Class           ( "BUILDINGS - FACTORIES" )
+    Class           ( "BUILDINGS - SHEDS&HUTS" )
     Filename        ( Plant13f.s )
     Align           ( None )
     Description     ( Plant13f )
 )
 
 Static (
-    Class           ( "BUILDINGS - FACTORIES" )
+    Class           ( "BUILDINGS - SHEDS&HUTS" )
     Filename        ( Plant13g.s )
     Align           ( None )
     Description     ( Plant13g )
@@ -5230,6 +5223,12 @@ Class ( <TRANSFERS> )
 Filename ( Sand.ace )
 Align ( None )
 Description ( Sand )
+)
+Transfer (
+Class ( <TRANSFERS> )
+Filename ( LtGreenGrass.ace )
+Align ( None )
+Description ( "Light Green Grass" )
 )
 Static (
     Class           ( "BUILDINGS - HOUSES" )
@@ -5522,4 +5521,36 @@ Static (
     Filename        ( PortobelloJctBoxName.s )
     Align           ( None )
     Description     ( PortobelloJctBoxName )
+)
+Static (
+    Class           ( "SPORTS" )
+    Filename        ( Doc_WembleyRifleClub.s )
+    Align           ( None )
+    Description     ( Doc_WembleyRifleClub )
+)
+Static (
+    Class           ( "SPORTS" )
+    Filename        ( MNCPLPOOL.S )
+    Align           ( None )
+    Description     ( "Swimming Pool" )
+)
+Static (
+    Class           ( "BUILDINGS - FACTORIES" )
+    Filename        ( WallpaperFactory.S )
+    Align           ( None )
+    Description     ( "Wallpaper Factory" )
+)
+Static (
+	FileName ( WaterTower1.s )
+	Shadow ( RECT )
+	Class ( "INDUSTRIAL - STRUCTURES" )
+	Align ( None )
+	Description     ( "Industrial Water Tower" )
+)
+Static (
+	FileName ( Glasshouse.s )
+	Shadow ( RECT )
+	Class ( "INDUSTRIAL - BUILDINGS" )
+	Align ( None )
+	Description     ( "Industrial Glasshouse" )
 )
