@@ -5554,3 +5554,36 @@ Static (
 	Align ( None )
 	Description     ( "Industrial Glasshouse" )
 )
+Static (
+    Class           ( "BUILDINGS - OFFICES" )
+    Filename        ( Office4.s )
+    Align           ( None )
+    Description     ( "Office 4" )
+)
+
+Static (
+    Class           ( "BUILDINGS - OFFICES" )
+    Filename        ( Office4Large.s )
+    Align           ( None )
+    Description     ( "Office 4 Large" )
+)
+
+Static (
+    Class           ( "BUILDINGS - OFFICES" )
+    Filename        ( Office4Narrow.s )
+    Align           ( None )
+    Description     ( "Office 4 Narrow" )
+)
+
+Static (
+    Class           ( "BUILDINGS - OFFICES" )
+    Filename        ( Office4Wedge.s )
+    Align           ( None )
+    Description     ( "Office 4 Wedge" )
+)
+Static (
+    Class           ( "SIGNALS" )
+    Filename        ( SignalBracketExtended.s )
+    Align           ( None )
+    Description     ( "Signal Bracket Extended" )
+)
