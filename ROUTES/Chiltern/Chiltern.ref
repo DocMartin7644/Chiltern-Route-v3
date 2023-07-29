@@ -5134,7 +5134,7 @@ Static (
 )
 
 Static (
-    Class           ( "BUILDINGS - SHEDS&HUTS" )
+    Class           ( "BUILDINGS - SHEDS & HUTS" )
     Filename        ( Plant32c.s )
     Align           ( None )
     Description     ( Plant32c )
@@ -5184,7 +5184,7 @@ Static (
 )
 
 Static (
-    Class           ( "BUILDINGS - SHEDS&HUTS" )
+    Class           ( "BUILDINGS - SHEDS & HUTS" )
     Filename        ( Plant13c.s )
     Align           ( None )
     Description     ( Plant13c )
@@ -5205,14 +5205,14 @@ Static (
 )
 
 Static (
-    Class           ( "BUILDINGS - SHEDS&HUTS" )
+    Class           ( "BUILDINGS - SHEDS & HUTS" )
     Filename        ( Plant13f.s )
     Align           ( None )
     Description     ( Plant13f )
 )
 
 Static (
-    Class           ( "BUILDINGS - SHEDS&HUTS" )
+    Class           ( "BUILDINGS - SHEDS & HUTS" )
     Filename        ( Plant13g.s )
     Align           ( None )
     Description     ( Plant13g )
