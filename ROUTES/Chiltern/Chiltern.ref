@@ -5587,3 +5587,9 @@ Static (
     Align           ( None )
     Description     ( "Signal Bracket Extended" )
 )
+Static (
+    Class           ( "BUILDINGS - SHOPS" )
+    Filename        ( Doc_GreenfordShops1.s )
+    Align           ( None )
+    Description     ( Doc_GreenfordShops1 )
+)
