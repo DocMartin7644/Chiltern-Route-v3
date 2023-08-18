@@ -5593,3 +5593,9 @@ Static (
     Align           ( None )
     Description     ( Doc_GreenfordShops1 )
 )
+Static (
+    Class           ( "BUILDINGS - HOUSES" )
+    Filename        ( Doc_30sSemi4.s )
+    Align           ( None )
+    Description     ( Doc_30sSemi4 )
+)
