@@ -5599,3 +5599,9 @@ Static (
     Align           ( None )
     Description     ( Doc_30sSemi4 )
 )
+Static (
+    Class           ( "BUILDINGS - SCHOOLS" )
+    Filename        ( Doc_SelborneSchool.s )
+    Align           ( None )
+    Description     ( Doc_SelborneSchool )
+)
