@@ -5605,6 +5605,7 @@ Static (
     Align           ( None )
     Description     ( Doc_SelborneSchool )
 )
+<<<<<<< Updated upstream
 Static 
     Class           ( BRIDGES )
     Filename        ( 7bridge50m1t1.s )
@@ -5670,4 +5671,11 @@ Static
     Filename    ( hw_towerct.s )
     Align       ( None )                                 
     Description ( "GWR Water Tower [Conical top]" )
+=======
+Static(
+	Class       ( "RAILWAY STRUCTURES" ) 
+	Filename    ( hw_towerct.s )
+	Align       ( None )                                  0
+	Description ( "GWR Water Tower [Conical top]" )
+>>>>>>> Stashed changes
 )
