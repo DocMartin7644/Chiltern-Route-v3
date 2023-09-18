@@ -5671,11 +5671,16 @@ Static
     Filename    ( hw_towerct.s )
     Align       ( None )                                 
     Description ( "GWR Water Tower [Conical top]" )
-=======
+)
 Static(
 	Class       ( "RAILWAY STRUCTURES" ) 
 	Filename    ( hw_towerct.s )
-	Align       ( None )                                  0
+	Align       ( None )                                  
 	Description ( "GWR Water Tower [Conical top]" )
->>>>>>> Stashed changes
+)
+Static (
+    Class           ( "RAILWAY CLUTTER" )
+    Filename        ( Doc_GoodsCapstan.s )
+    Align           ( None )
+    Description     ( Doc_GoodsCapstan )
 )
