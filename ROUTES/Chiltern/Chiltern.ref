@@ -5605,7 +5605,6 @@ Static (
     Align           ( None )
     Description     ( Doc_SelborneSchool )
 )
-<<<<<<< Updated upstream
 Static 
     Class           ( BRIDGES )
     Filename        ( 7bridge50m1t1.s )
@@ -5665,10 +5664,4 @@ Static
     Filename        ( 7a2tpillar3.s )
     Align           ( None )
     Description     ( 7a2tpillar3 )
-)
-Static (
-    Class           ( "RAILWAY CLUTTER" )
-    Filename        ( Doc_GoodsCapstan.s )
-    Align           ( None )
-    Description     ( Doc_GoodsCapstan )
 )
