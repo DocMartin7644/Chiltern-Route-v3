@@ -5665,3 +5665,9 @@ Static
     Align           ( None )
     Description     ( 7a2tpillar3 )
 )
+Static (
+    Class           ( "RAILWAY CLUTTER" )
+    Filename        ( Doc_GoodsCapstan.s )
+    Align           ( None )
+    Description     ( Doc_GoodsCapstan )
+)
