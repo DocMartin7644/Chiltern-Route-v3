@@ -5665,30 +5665,23 @@ Static
     Align           ( None )
     Description     ( 7a2tpillar3 )
 )
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
 Static
     Class       ( "RAILWAY STRUCTURES" )
     Filename    ( hw_towerct.s )
     Align       ( None )                                 
     Description ( "GWR Water Tower [Conical top]" )
-=======
+)
 Static(
 	Class       ( "RAILWAY STRUCTURES" ) 
 	Filename    ( hw_towerct.s )
-	Align       ( None )                                  0
+	Align       ( None )
 	Description ( "GWR Water Tower [Conical top]" )
->>>>>>> Stashed changes
-=======
->>>>>>> Current
+)
 Static (
     Class           ( "RAILWAY CLUTTER" )
     Filename        ( Doc_GoodsCapstan.s )
     Align           ( None )
     Description     ( Doc_GoodsCapstan )
-<<<<<<< HEAD
-=======
 )
 Static (
     Class           ( "SIGNAL BOXES" )
@@ -5701,6 +5694,4 @@ Static (
     Filename        ( PaddingtonDeparturesBoxName.s )
     Align           ( None )
     Description     ( PaddingtonDeparturesBoxName )
->>>>>>> Stashed changes
->>>>>>> Current
 )
