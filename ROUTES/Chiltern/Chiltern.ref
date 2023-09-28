@@ -5714,3 +5714,9 @@ Static (
     Align           ( None )
     Description     ( Doc_CL_Shunt )
 )
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( WestbourneBridgeName.s )
+    Align           ( None )
+    Description     ( WestbourneBridgeName )
+)
