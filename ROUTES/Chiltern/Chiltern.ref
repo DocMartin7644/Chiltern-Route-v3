@@ -5695,3 +5695,22 @@ Static (
     Align           ( None )
     Description     ( PaddingtonDeparturesBoxName )
 )
+Static (
+    Class           ( “BRIDGES – FOOTBRIDGES” )
+    Filename        ( SRConcFootBr.s )
+    Align           ( None )
+    Description     ( SRConcrete_Footbridge )
+)
+
+Static (
+    Class           ( “BRIDGES – FOOTBRIDGES" )
+    Filename        ( SRConcFootBrPlat.s )
+    Align           ( None )
+    Description     ( SRConcrete_FootbridgePlatform )
+)
+Static (
+    Class           ( "SIGNALS" )
+    Filename        ( Doc_CL_Shunt.s )
+    Align           ( None )
+    Description     ( Doc_CL_Shunt )
+)
