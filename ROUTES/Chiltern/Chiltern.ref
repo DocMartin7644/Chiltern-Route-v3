@@ -5720,3 +5720,15 @@ Static (
     Align           ( None )
     Description     ( WestbourneBridgeName )
 )
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( SubwayJunctionName.s )
+    Align           ( None )
+    Description     ( SubwayJunctionName )
+)
+Static (
+    Class           ( "SIGNALS" )
+    Filename        ( Doc_CL_FixedDistant.s )
+    Align           ( None )
+    Description     ( Doc_CL_FixedDistant )
+)
