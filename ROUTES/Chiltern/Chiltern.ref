@@ -5497,13 +5497,6 @@ Static (
     Align           ( None )
     Description     ( "Old_OakEngineBoxName" )
 )
-
-Static (
-    Class           ( "SIGNAL BOXES" )
-    Filename        ( OldOakEastBoxName.s )
-    Align           ( None )
-    Description     ( "Old_OakEastBoxName" )
-)
 Static (
     Class           ( "SIGNAL BOXES" )
     Filename        ( LadbrokeGroveName.s )
@@ -5731,4 +5724,16 @@ Static (
     Filename        ( Doc_CL_FixedDistant.s )
     Align           ( None )
     Description     ( Doc_CL_FixedDistant )
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( OldOakEastBoxName.s )
+    Align           ( None )
+    Description     ( OldOakEastBoxName )
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        ( NorthPoleJctBoxName.s )
+    Align           ( None )
+    Description     ( NorthPoleJctBoxName )
 )
