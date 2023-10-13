@@ -1224,58 +1224,7 @@ SCRIPT BR_E_2Aspect
 
 ///////////////////////////////////////////////////////////////////////////////
 
-SCRIPT GWR_2AspectHome
-// GWR 2Aspect Colour Light (Paddington Suburban Line)
 
-	extern float	block_state ();
-	extern float	route_set ();
-	extern float	def_draw_state ();
-	extern float	state;
-	extern float	draw_state;
-	extern float	enabled;
-
-	if (!enabled ||								// Not enabled/cleared to show natural state?
-		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
-		!route_set())							// Switch not set as per link?
-	{
-		state = SIGASP_STOP;
-	}
-	else
-	{
-		state = SIGASP_CLEAR_2;
-	}
-
-// Get draw state
-	draw_state = def_draw_state (state);
-
-
-///////////////////////////////////////////////////////////////////////////////
-SCRIPT GWR_2AspectDistant
-
-// GWR 2Aspect Colour Light Distant(Paddington Suburban Line)
-
-	extern float	block_state ();
-	extern float	route_set ();
-	extern float	def_draw_state ();
-	extern float	dist_multi_sig_mr ();
-	extern float	state;
-	extern float	draw_state;
-	extern float	enabled;
-
-	if ( //!enabled ||							// Not enabled/cleared to show natural state?
-		!route_set() ||							// Switch not set as per link?
-		dist_multi_sig_mr (SIGFN_NORMAL, SIGFN_DISTANCE) ==# SIGASP_STOP)
-	{
-		state = SIGASP_APPROACH_2;
-	}
-	else
-	{
-		state = SIGASP_CLEAR_2;
-	}
-
-// Get draw state
-	draw_state = def_draw_state (state);
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 SCRIPT LNER_Searchlight
 
 // LNER 4 Aspect Searchlight
