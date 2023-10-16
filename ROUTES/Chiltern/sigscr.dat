@@ -1248,6 +1248,7 @@ SCRIPT GWR_2AspectHome
 // Get draw state
 	draw_state = def_draw_state (state);
 
+
 ///////////////////////////////////////////////////////////////////////////////
 SCRIPT GWR_2AspectDistant
 
@@ -1275,54 +1276,6 @@ SCRIPT GWR_2AspectDistant
 // Get draw state
 	draw_state = def_draw_state (state);
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-SCRIPT GWR_2AspectShuntSignal
-// GWR 2Aspect Colour Light Goods Signal (Paddington Suburban Line)
-
-	extern float	block_state ();
-	extern float	route_set ();
-	extern float	def_draw_state ();
-	extern float	state;
-	extern float	draw_state;
-	extern float	enabled;
-
-	if (!enabled ||								// Not enabled/cleared to show natural state?
-		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
-		!route_set())							// Switch not set as per link?
-	{
-		state = SIGASP_STOP;
-	}
-	else
-	{
-		state = SIGASP_CLEAR_1;
-	}
-
-// Get draw state
-	draw_state = def_draw_state (state);
-///////////////////////////////////////////////////////////////////////////////
-SCRIPT GW_PosLight
-// GWR 2Aspect Shunting Colour Light (Paddington Suburban Line)
-
-	extern float	block_state ();
-	extern float	route_set ();
-	extern float	def_draw_state ();
-	extern float	state;
-	extern float	draw_state;
-	extern float	enabled;
-
-	if (!enabled ||								// Not enabled/cleared to show natural state?
-		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
-		!route_set())							// Switch not set as per link?
-	{
-		state = SIGASP_STOP;
-	}
-	else
-	{
-		state = SIGASP_CLEAR_2;
-	}
-
-// Get draw state
-	draw_state = def_draw_state (state);
-///////////////////////////////////////////////////////////////////////////////
 SCRIPT LNER_Searchlight
 
 // LNER 4 Aspect Searchlight
@@ -1446,7 +1399,6 @@ SCRIPT LNER_Searchlightb
 
 // Get draw state
 	draw_state = def_draw_state (state);
-///////////////////////////////////////////////////////////////////////////////
 SCRIPT GW_TubHomeWRu
 
 // GWR Lower Quadrant Home
@@ -1515,6 +1467,7 @@ SCRIPT GW_TubHome
 
 ///////////////////////////////////////////////////////////////////////////////
 
+///////////////////////////////////////////////////////////////////////////////
 SCRIPT GW_TubHomeDistant
 
 // GWR Lower Quadrant Home and Distant
@@ -1854,6 +1807,10 @@ SCRIPT BR_M_Ground_Dolly
 	draw_state = def_draw_state (state);
 
 ///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+// Signal Type Logic Scripts
+// 10 12 24 GWR
+///////////////////////////////////////////////////////////////////////////////
 SCRIPT IJ_repeater1
 
 // UK Semephore (Distance)
@@ -2100,6 +2057,8 @@ SCRIPT DummyDistant_2
 // Get draw state
 	draw_state = def_draw_state (state);
 
+///////////////////////////////////////////////////////////////////////////////
+// These Scripts copied from other of my signal sets //////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
 SCRIPT Counterbalance_SemDistantLQ
 // LQ Counterbalance Arm (Distant)
@@ -2605,6 +2564,8 @@ SCRIPT LQ/UQ_DummyDist
 // Get draw state
 	draw_state = def_draw_state (state);
 ///////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////
 SCRIPT CL_2PositionDistant
 // Colour Light Distant 2 Position
 
@@ -2656,6 +2617,10 @@ SCRIPT DummyDistant
 // Get draw state
 	draw_state = def_draw_state (state);
 
+
+///////////////////////////////////////////////////////////////////////////////
+// Signal Type Logic Scripts
+// 05 11 Early BRCL
 
 ///////////////////////////////////////////////////////////////////////////////
 
