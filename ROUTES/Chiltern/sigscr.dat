@@ -3577,28 +3577,6 @@ SCRIPT CL_90LeftFeather
 	}
 
 ///////////////////////////////////////////////////////////////////////////////
-SCRIPT CL_45LeftFeather
-// Left Hand 45deg Feather
-
-	extern float	route_set ();
-	extern float	draw_state;
-	extern float	block_state ();
-	extern float	enabled;
-
-
-// If required, show the 'stop' indication.				(operates on 'AUTO' basis
-	if (!enabled ||								// Not enabled/cleared to show natural state?
-		block_state() !=# BLOCK_CLEAR ||				// Block ahead not clear?
-		!route_set())
-
-	{
-		draw_state = 0;
-	}
-	else
-	{	draw_state = 1;
-	}
-
-///////////////////////////////////////////////////////////////////////////////
 SCRIPT CL_CallingOn
 // Calling On Signal
 
