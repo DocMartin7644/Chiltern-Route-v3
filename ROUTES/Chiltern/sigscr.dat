@@ -2,57 +2,6 @@
 // Signal Type Logic Scripts
 //
 ///////////////////////////////////////////////////////////////////////////////
-SCRIPT GWR_2AspectShuntSignal
-// GWR 2Aspect Colour Light Goods Signal (Paddington Suburban Line)
-
-extern float block_state ();
-extern float route_set ();
-extern float def_draw_state ();
-extern float state;
-extern float draw_state;
-extern float enabled;
-
-if (!enabled || // Not enabled/cleared to show natural state?
-block_state() !=# BLOCK_CLEAR || // Block ahead not clear?
-!route_set()) // Switch not set as per link?
-{
-state = SIGASP_STOP;
-}
-else
-{
-state = SIGASP_CLEAR_1;
-}
-
-// Get draw state
-draw_state = def_draw_state (state);
-
-
-///////////////////////////////////////////////////////////////////////////////
-SCRIPT GW_PosLight
-// GWR 2Aspect Shunting Colour Light (Paddington Suburban Line)
-
-	extern float	block_state ();
-	extern float	route_set ();
-	extern float	def_draw_state ();
-	extern float	state;
-	extern float	draw_state;
-	extern float	enabled;
-
-	if (!enabled ||								// Not enabled/cleared to show natural state?
-		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
-		!route_set())							// Switch not set as per link?
-	{
-		state = SIGASP_STOP;
-	}
-	else
-	{
-		state = SIGASP_CLEAR_1;
-	}
-
-// Get draw state
-	draw_state = def_draw_state (state);
-///////////////////////////////////////////////////////////////////////////////
-
 SCRIPT PPLDwrf
 
 // Position Light Dwarf Signal Interlocking Signal
@@ -1317,7 +1266,7 @@ SCRIPT GWR_2AspectDistant
 		!route_set() ||							// Switch not set as per link?
 		dist_multi_sig_mr (SIGFN_NORMAL, SIGFN_DISTANCE) ==# SIGASP_STOP)
 	{
-		state = SIGASP_APPROACH_1;
+		state = SIGASP_APPROACH_2;
 	}
 	else
 	{
