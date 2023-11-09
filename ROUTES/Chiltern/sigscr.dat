@@ -1632,9 +1632,6 @@ SCRIPT GW_GroundDiscY
 	draw_state = def_draw_state (state);
 
 ///////////////////////////////////////////////////////////////////////////////
-// E
-
-///////////////////////////////////////////////////////////////////////////////
 SCRIPT LMS_LofS_Board
 // Limit of Shunt Board
 
@@ -3607,36 +3604,6 @@ SCRIPT CL_CallingOn
 	draw_state = def_draw_state (state);
 
 ///////////////////////////////////////////////////////////////////////////////
-SCRIPT CL_2AspectStop
-// 2 Aspect Search Light
-
-	extern float	block_state ();
-	extern float	route_set ();
-	extern float	next_sig_lr ();
-	extern float	def_draw_state ();
-	extern float	state;
-	extern float	draw_state;
-	extern float	enabled;
-	float			next_state;
-
-// If required, show the 'stop' indication.
-	if (!enabled ||								// Not enabled/cleared to show natural state?
-		block_state() !=# BLOCK_CLEAR ||				// Block ahead not clear?
-		!route_set())							// Switch not set as per link?
-	{
-		state = SIGASP_STOP;
-	}
-// Signal head is enabled and the block ahead is clear - update based on state of
-// next signal head.
-	else
-      {
-		state = SIGASP_CLEAR_2;
-	}
-
-// Get draw state
-	draw_state = def_draw_state (state);
-
-///////////////////////////////////////////////////////////////////////////////
 SCRIPT CL_3AspectSpecial
 // CL 3Aspect Searchlight Signal for Subsidiary Signal
 
@@ -3681,56 +3648,6 @@ SCRIPT CL_3AspectSpecial
 
 // Get draw state
 	draw_state = def_draw_state (state);
-SCRIPT GWR_2AspectHome
-// GWR 2Aspect Colour Light (Paddington Suburban Line)
-
-	extern float	block_state ();
-	extern float	route_set ();
-	extern float	def_draw_state ();
-	extern float	state;
-	extern float	draw_state;
-	extern float	enabled;
-
-	if (!enabled ||								// Not enabled/cleared to show natural state?
-		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
-		!route_set())							// Switch not set as per link?
-	{
-		state = SIGASP_STOP;
-	}
-	else
-	{
-		state = SIGASP_CLEAR_2;
-	}
-
-// Get draw state
-	draw_state = def_draw_state (state);
-
-///////////////////////////////////////////////////////////////////////////////
-SCRIPT GWR_2AspectDistant
-
-// GWR 2Aspect Colour Light Distant(Paddington Suburban Line)
-
-	extern float	block_state ();
-	extern float	route_set ();
-	extern float	def_draw_state ();
-	extern float	dist_multi_sig_mr ();
-	extern float	state;
-	extern float	draw_state;
-	extern float	enabled;
-
-	if ( //!enabled ||							// Not enabled/cleared to show natural state?
-		!route_set() ||							// Switch not set as per link?
-		dist_multi_sig_mr (SIGFN_NORMAL, SIGFN_DISTANCE) ==# SIGASP_STOP)
-	{
-		state = SIGASP_APPROACH_2;
-	}
-	else
-	{
-		state = SIGASP_CLEAR_2;
-	}
-
-// Get draw state
-	draw_state = def_draw_state (state);
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 SCRIPT GWR_2AspectShuntSignal
 // GWR 2Aspect Colour Light Goods Signal (Paddington Suburban Line)
@@ -3750,7 +3667,7 @@ SCRIPT GWR_2AspectShuntSignal
 	}
 	else
 	{
-		state = SIGASP_CLEAR_1;
+		state = SIGASP_CLEAR_2;
 	}
 
 // Get draw state
