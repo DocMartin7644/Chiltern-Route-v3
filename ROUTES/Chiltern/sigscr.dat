@@ -3667,7 +3667,7 @@ SCRIPT GWR_2AspectShuntSignal
 	}
 	else
 	{
-		state = SIGASP_CLEAR_2;
+		state = SIGASP_CLEAR_1;
 	}
 
 // Get draw state
@@ -3676,7 +3676,7 @@ SCRIPT GWR_2AspectShuntSignal
 SCRIPT GW_PosLight
 // GWR 2Aspect Shunting Colour Light (Paddington Suburban Line)
 
-	extern float	block_state ();
+extern float	block_state ();
 	extern float	route_set ();
 	extern float	def_draw_state ();
 	extern float	state;
@@ -3691,7 +3691,7 @@ SCRIPT GW_PosLight
 	}
 	else
 	{
-		state = SIGASP_CLEAR_2;
+		state = SIGASP_CLEAR_1;
 	}
 
 // Get draw state
