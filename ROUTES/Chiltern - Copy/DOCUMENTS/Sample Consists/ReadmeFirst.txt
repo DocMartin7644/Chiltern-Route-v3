@@ -1,1 +1,0 @@
-This folder contains typical consists for my models of the various London Transport EMUs.
