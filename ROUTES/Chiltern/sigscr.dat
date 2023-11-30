@@ -1248,7 +1248,6 @@ SCRIPT GWR_2AspectHome
 // Get draw state
 	draw_state = def_draw_state (state);
 
-
 ///////////////////////////////////////////////////////////////////////////////
 SCRIPT GWR_2AspectDistant
 
@@ -1264,7 +1263,7 @@ SCRIPT GWR_2AspectDistant
 
 	if ( //!enabled ||							// Not enabled/cleared to show natural state?
 		!route_set() ||							// Switch not set as per link?
-		dist_multi_sig_mr (SIGFN_NORMAL, SIGFN_DISTANCE) ==# SIGASP_STOP)
+		dist_multi_sig_mr (SIGFN_NORMAL, SIGFN_DISTANCE) !=# SIGASP_CLEAR_2)
 	{
 		state = SIGASP_APPROACH_2;
 	}
@@ -1275,6 +1274,7 @@ SCRIPT GWR_2AspectDistant
 
 // Get draw state
 	draw_state = def_draw_state (state);
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 SCRIPT LNER_Searchlight
 
