@@ -2,6 +2,30 @@
 // Signal Type Logic Scripts
 //
 ///////////////////////////////////////////////////////////////////////////////
+SCRIPT Doc_CL_Warning
+// GW Colour Light Warning Signal
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||		// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP;
+	}
+	else
+	{
+		state = SIGASP_CLEAR_1;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////
 SCRIPT PPLDwrf
 
 // Position Light Dwarf Signal Interlocking Signal
