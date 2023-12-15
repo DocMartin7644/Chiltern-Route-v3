@@ -6,7 +6,9 @@ ECHO ============================
 ECHO.
 ECHO  A. No Headcode
 ECHO  B. A13 Cardiff or Fishguard to Paddington Capitals United
-CHOICE /C ab /M "Please enter your selection :"
+ECHO  C. Paddington to Bristol Temple Meads or reverse
+CHOICE /C abc /M "Please enter your selection :"
+IF ERRORLEVEL 3 SET hdcd=Class7Bristolian.s& GOTO copyhdcd
 IF ERRORLEVEL 2 SET hdcd=Class7_A13_Capitals.s& GOTO copyhdcd
 IF ERRORLEVEL 1 SET hdcd=noboard.s& GOTO copyhdcd
 :menuend
