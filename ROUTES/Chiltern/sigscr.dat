@@ -2,6 +2,35 @@
 // Signal Type Logic Scripts
 //
 ///////////////////////////////////////////////////////////////////////////////
+SCRIPT Doc_CL_Callon
+// GW Colour Light Calling On Signal
+
+	extern float	block_state ();
+	extern float	route_set ();
+	extern float	next_sig_lr ();
+	extern float	def_draw_state ();
+	extern float	state;
+	extern float	draw_state;
+	extern float	enabled;
+	float			next_state;
+
+// If required, show the 'stop' indication.
+	if (!enabled ||								// Not enabled/cleared to show natural state?
+		block_state() !=# BLOCK_CLEAR ||				// Block ahead not clear?
+		!route_set())							// Switch not set as per link?
+	{
+		state = SIGASP_STOP;
+	}
+// Signal head is enabled and the block ahead is clear - update based on state of
+// next signal head.
+	else
+      {
+		state = SIGASP_CLEAR_1;
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+///////////////////////////////////////////////////////////////////////////////
 SCRIPT Doc_CL_Shunt
 // GW Colour Light Shunt Signal
 

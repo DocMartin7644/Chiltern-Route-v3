@@ -5737,3 +5737,9 @@ Static (
     Align           ( None )
     Description     ( NorthPoleJctBoxName )
 )
+Static (
+    Class           ( "SIGNALS" )
+    Filename        ( Doc_CL_Callon.s )
+    Align           ( None )
+    Description     ( Doc_CL_Callon )
+)
