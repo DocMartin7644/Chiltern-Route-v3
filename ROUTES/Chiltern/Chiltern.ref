@@ -5743,3 +5743,9 @@ Static (
     Align           ( None )
     Description     ( Doc_CL_Callon )
 )
+Static (
+    Class           ( "SIGNALS" )
+    Filename        ( SemaphoreCallingOn.s )
+    Align           ( None )
+    Description     ( SemaphoreCallingOn )
+)
