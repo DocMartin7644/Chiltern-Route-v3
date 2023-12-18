@@ -5749,3 +5749,9 @@ Static (
     Align           ( None )
     Description     ( SemaphoreCallingOn )
 )
+Static (
+    Class           ( "STATIONS" )
+    Filename        ( paaddnou.s )
+    Align           ( None )
+    Description     ( Paddington )
+)
