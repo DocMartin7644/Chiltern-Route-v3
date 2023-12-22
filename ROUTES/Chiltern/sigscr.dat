@@ -2,6 +2,59 @@
 // Signal Type Logic Scripts
 //
 ///////////////////////////////////////////////////////////////////////////////
+SCRIPT Doc_2HeadFogRepeaterTop
+// LUL Junction Fog Repeater
+
+	extern float	def_draw_state ();
+	extern float	next_sig_lr();
+	extern float	state;
+	extern float	draw_state;
+	float			next_state;
+
+	// Find next NORMAL (stop or auto) signal. If at STOP or RESTRICTING, set Repeater at Approach, else Clear.
+
+	next_state = next_sig_lr (SIGFN_NORMAL);
+	if ( next_state ==# SIGASP_STOP ||
+	     next_state ==# SIGASP_RESTRICTING )
+	{
+		state = SIGASP_APPROACH_1; // Yellow
+	}
+	else
+	{
+		state = SIGASP_CLEAR_2; // Green
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////
+SCRIPT Doc_2HeadFogRepeaterBottom
+
+// LUL Junction Fog Repeater
+
+	extern float	def_draw_state ();
+	extern float	next_sig_lr();
+	extern float	state;
+	extern float	draw_state;
+	float			next_state;
+
+	// Find next NORMAL (stop or auto) signal. If at STOP or RESTRICTING, set Repeater at Approach, else Clear.
+
+	next_state = next_sig_lr (SIGFN_NORMAL);
+	if ( next_state ==# SIGASP_STOP ||
+	     next_state ==# SIGASP_RESTRICTING )
+	{
+		state = SIGASP_APPROACH_1; // Yellow
+	}
+	else
+	{
+		state = SIGASP_CLEAR_2; // Green
+	}
+
+// Get draw state
+	draw_state = def_draw_state (state);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 SCRIPT Doc_GW_LoS
 // GW Limit of Shunt
 
