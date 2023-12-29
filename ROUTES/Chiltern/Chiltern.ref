@@ -5760,3 +5760,9 @@ Static (
     Align           ( None )
     Description     ( Paddington )
 )
+Static (
+    Class           ( "BRIDGES - BRICK" )
+    Filename        ( Doc_RedBrickBridge_100ft4l.s )
+    Align           ( None )
+    Description     ( Doc_RedBrickBridge_100ft4l )
+)
