@@ -5766,3 +5766,9 @@ Static (
     Align           ( None )
     Description     ( Doc_RedBrickBridge_100ft4l )
 )
+Static (
+    Class           ( "BUILDINGS - PUBS" )
+    Filename        ( Doc_GreenfordRlwyHotel.s )
+    Align           ( None )
+    Description     ( Doc_GreenfordRlwyHotel )
+)
