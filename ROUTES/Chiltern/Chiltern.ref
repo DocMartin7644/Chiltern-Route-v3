@@ -4396,7 +4396,7 @@ static ( class ( "VEHICLES_FARM" ) filename ( "nbfarmlbaler.s" ) description ( "
 static ( class ( "VEHICLES_FARM" ) filename ( "nbtracbaler.s" ) description ( "Tractor_and_baler" ) align ( NONE ) )
 static ( class ( "VEHICLES_FARM" ) filename ( "pvrtractor1.s" ) description ( "PVR Tractor 1" ) align ( NONE ) )
 static ( class ( "VEHICLES_FARM" ) filename ( "pvrtrailer.s" ) description ( "PVR Trailer" ) align ( NONE ) )
-static ( class ( "VEHICLES_LORRIES" ) filename ( "aeccoallorrylite.s" ) description ( "AEC Mammoth" ) align ( NONE ) )
+static ( class ( "VEHICLES_LORRIES" ) filename ( "aeccoallorrylite.s" ) description ( "AEC Mammoth Coal Lorry" ) align ( NONE ) )
 static ( class ( "VEHICLES_LORRIES" ) filename ( "doc_aecexpressdairy.s" ) description ( "AECExpressDairy" ) align ( NONE ) )
 static ( class ( "VEHICLES_LORRIES" ) filename ( "doc_aecmammothaggregate.s" ) description ( "Doc_AECMammothAggregate" ) align ( NONE ) )
 static ( class ( "VEHICLES_LORRIES" ) filename ( "doc_aecmercury_livestock.s" ) description ( "Doc_AECMercury_Livestock" ) align ( NONE ) )

@@ -1,6 +1,13 @@
 SIMISA@@@@@@@@@@JINX0v1t______
 
-12
+13
+CarSpawnerList(
+ListName ( "Canal Boat" )
+3
+CarSpawnerItem( "canal_nboat_15m_blue.s" 20 )
+CarSpawnerItem( "canal_nboat_15m_green.s" 20 )
+CarSpawnerItem( "canal_nboat_15m_red.s" 20 )
+)
 CarSpawnerList(
 ListName ( "London Inner" )
 70                                                       
@@ -639,9 +646,14 @@ CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
 CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
 CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
 )
-1
 CarSpawnerList(
 ListName ( "Horse_rider" )
 1
-CarSpawnerItem( "Horse_rider.s" 8 ) )
+CarSpawnerItem( "Horse_rider.s" 8 
 )
+CarSpawnerList(
+ListName ( "Canal Boat" )
+1
+CarSpawnerItem( "rf_narrowboat.s" 20 )
+)
+
