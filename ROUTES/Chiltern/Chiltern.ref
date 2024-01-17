@@ -5772,3 +5772,21 @@ Static (
     Align           ( None )
     Description     ( Doc_GreenfordRlwyHotel )
 )
+Static (
+    Class           ( "BUILDINGS - FACTORIES" )
+    Filename        ( Doc_GreenfordFactory1.s )
+    Align           ( None )
+    Description     ( Doc_GreenfordFactory1 )
+)
+Static (
+    Class           ( "BUILDINGS - FACTORIES" )
+    Filename        ( Doc_GreenfordFactoryAwning.s )
+    Align           ( None )
+    Description     ( Doc_GreenfordFactoryAwning )
+)
+Static (
+    Class           ( "BUILDINGS - WAREHOUSES" )
+    Filename        ( Doc_GreenfordDriveInWhouse.s )
+    Align           ( None )
+    Description     ( Doc_GreenfordDriveInWhouse )
+)

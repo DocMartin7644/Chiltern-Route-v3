@@ -3,10 +3,8 @@ SIMISA@@@@@@@@@@JINX0v1t______
 13
 CarSpawnerList(
 ListName ( "Canal Boat" )
-3
-CarSpawnerItem( "canal_nboat_15m_blue.s" 20 )
-CarSpawnerItem( "canal_nboat_15m_green.s" 20 )
-CarSpawnerItem( "canal_nboat_15m_red.s" 20 )
+1
+CarSpawnerItem( "de_CoalBarge.s" 20 )
 )
 CarSpawnerList(
 ListName ( "London Inner" )
