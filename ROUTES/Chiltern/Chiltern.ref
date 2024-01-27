@@ -5790,3 +5790,9 @@ Static (
     Align           ( None )
     Description     ( Doc_GreenfordDriveInWhouse )
 )
+Static (
+    Class           ( "SCENERY" )
+    Filename        ( Doc_GreenfordSportsGround.s )
+    Align           ( None )
+    Description     ( Doc_GreenfordSportsGround )
+)
