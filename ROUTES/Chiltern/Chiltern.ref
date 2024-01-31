@@ -5796,3 +5796,27 @@ Static (
     Align           ( None )
     Description     ( Doc_GreenfordSportsGround )
 )
+Static (
+    Class           ( "TRACK PARTS" )
+    Filename        ( ukfs100mstrtwtr.s )
+    Align           ( None )
+    Description     ( Water_Trough_100m )
+)
+Static (
+    Class           ( "TRACK PARTS" )
+    Filename        ( ukfs50mstrtwtr.s )
+    Align           ( None )
+    Description     ( Water_Trough_50m )
+)
+Static (
+    Class           ( "TRACK PARTS" )
+    Filename        ( ukfs10mstrtwtr.s )
+    Align           ( None )
+    Description     ( Water_Trough_10m )
+)
+Static (
+    Class           ( "TRACK PARTS" )
+    Filename        ( a1t-wtr-end.s )
+    Align           ( None )
+    Description     ( Water_Trough_End )
+)
