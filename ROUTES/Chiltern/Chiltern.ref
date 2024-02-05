@@ -5820,3 +5820,100 @@ Static (
     Align           ( None )
     Description     ( Water_Trough_End )
 )
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 1t_Wire_fence.s )
+    Align           ( None )
+    Description     ( 1track_wire_fence )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 1t_Wire_fenceRgt.s )
+    Align           ( None )
+    Description     ( 1track_wire_fence_Right )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 1t_Wire_fenceLft.s )
+    Align           ( None )
+    Description     ( 1track_wire_fence_Left )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 1t_5Bar_Fence.s )
+    Align           ( None )
+    Description     ( 1track_5bar_fence )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 1t_5Bar_FenceRgt.s )
+    Align           ( None )
+    Description     ( 1track_5bar_fence_Right )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 1t_5Bar_FenceLft.s )
+    Align           ( None )
+    Description     ( 1track_5bar_fence_Left )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 2t_Wire_fence.s )
+    Align           ( None )
+    Description     ( 2track_wire_fence )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 2t_Wire_fenceRgt.s )
+    Align           ( None )
+    Description     ( 2track_wire_fence_Right )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 2t_Wire_fenceLft.s )
+    Align           ( None )
+    Description     ( 2track_wire_fence_Left )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 2t_5Bar_Fence.s )
+    Align           ( None )
+    Description     ( 2track_5bar_fence )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 2t_5Bar_FenceRgt.s )
+    Align           ( None )
+    Description     ( 2track_5bar_fence_Right )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 2t_5Bar_FenceLft.s )
+    Align           ( None )
+    Description     ( 2track_5bar_fence_Left )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 2t_No_Fence.s )
+    Align           ( None )
+    Description     ( 2track_No_fence )
+)
+
+Static (
+    Class           ( "FENCES" )
+    Filename        ( 1t_No_Fence.s )
+    Align           ( None )
+    Description     ( 1track_No_fence )
+)
