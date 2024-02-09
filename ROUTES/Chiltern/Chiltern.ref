@@ -5917,3 +5917,9 @@ Static (
     Align           ( None )
     Description     ( 1track_No_fence )
 )
+Static (
+    Class           ( "SCENERY" )
+    Filename        ( Doc_OldfieldRecGround.s )
+    Align           ( None )
+    Description     ( Doc_OldfieldRecGround )
+)
