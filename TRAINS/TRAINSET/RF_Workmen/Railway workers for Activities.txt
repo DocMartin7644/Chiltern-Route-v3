@@ -1,0 +1,25 @@
+Railway Workers for activities.
+-------------------------------
+
+This is a small development kit which facilitates the addition of static railway workers scenery as placeable items in activities.
+
+The following files are needed for this kit to work properly.
+
+UKTS_7920_Invisiwag 
+UKTS_23996_RF_Workmen
+
+1. Extract the files from this zip and place the RF_Workmen folder in the TRAINSET directory.
+
+2. Unzip UKTS_7920_Invisiwag to a temporary folder and copy invisiwag.s and invisiwag.sd to the RF_Workmen folder.
+
+3. Unzip UKTS_23996_RF_Workmen to a temporary folder and copy everything from both the SHAPES and TEXTURES folders into RF_Workmen.
+
+4. Copy the demo consist to your consists folder and add your railway workers to your activities as a loose consist definition.
+
+Two folders have been included under RF_Workmen to keep copies of consists and .wags for developing new variants and dodging around Trainstore. If you want to create new variations, please rename the files being altered , mainly to avoid confusion at a later date, and especially if you are going to upload new activities to the site.
+
+I have produced a simple set of characters in the demo consist. Please feel free to experiment and change distances, positions and so on.
+
+Please respect modellers copyrights.
+
+SDtrains Stephen Dearne sjdearne@ukonline.co.uk May 2010

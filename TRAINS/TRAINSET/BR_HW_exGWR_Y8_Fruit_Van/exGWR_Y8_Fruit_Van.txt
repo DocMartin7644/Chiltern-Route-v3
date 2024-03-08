@@ -1,0 +1,35 @@
+exGWR Diag Y8 Fruit Van
+VERSION 1.0
+
+3D Model built from scratch by Robin Howell (robin.howell@tiscali.co.uk)
+repainted by Ian Macmillan
+-----------------------------------------------------------------------------
+The 3D model has been built using TrainSim Modeler
+
+Prototype
+~~~~~~~~~
+
+ExGWR Fruit Wagon First Built 1938. The last batch was built after nationalisation and recieved BR numbers.
+GWR Fruit Wagons VERSION 2.0
+
+3D Model built from scratch by Robin Howell (robin.howell@tiscali.co.uk)
+painted by Robin Howell
+
+Any suggestions of help or constructive comments welcome.
+
+This wagon has been built specifically for the Highworth Branch project ( www.highworth.freeuk.com) and thanks need to be given to Martin soilleux-Caldwell and Paul Gausden for photos, help and advice.
+
+The wagon is released as freeware, Copyright (C) 2003, Robin Howell. You may repaint the model on the following conditions:
+
+1.	You must give credit to all parties involved in the development and retain this readme in any repacking of the repainted wagon.
+
+2.	No charge may be made for this archive other than that to cover the cost of its 	distribution. If a fee is charged it must be made clear to the purchaser that the 	archive is freeware and that the fee is to cover the distributor's costs of providing the archive.
+
+3.	Please e-mail me (robin.howell@tiscali.co.uk) just to let me know you are making use of the model to repaint/re-skin. 
+
+4.	The authors' rights and wishes concerning this archive must be respected.
+
+
+Install instructions: unzip the to a temporary folder and drag or copy to your Train Simulator/trains/trainset directory. Then make a consist and....
+
+Have fun!
