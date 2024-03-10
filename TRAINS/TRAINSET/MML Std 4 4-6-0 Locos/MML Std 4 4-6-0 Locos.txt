@@ -1,0 +1,28 @@
+This is a pack of eight Standard 4 4-6-0 locos that were associated with the line out of St Pancras.
+
+They are renumbers of David Robinson's original and thanks to him for permission. Thanks also to Rick Gibb for updating the engine and tender files.
+
+The two cylinder sound set (File ID:2910 and 2919) is required as well as the crew alias (File ID: 7759 and 7703).
+
+To install just run the program provided. 
+
+
+75062 and 75064 have automatic coupling, the rest have Chain.
+Here are the locos and allocations.
+
+
+75040	Bedford Mid Fifties To Early Sixties
+75041	Bedford Mid Fifties To Early Sixties
+75042	Leicester Midland Late Fifties to Early Sixties
+75057	Leicester Midland Late Fifties to Early Sixties
+75062	Nottingham Late Fifties to Early Sixties
+75063	Nottingham Late Fifties to Early Sixties
+75044	Derby Early / Mid Sixties
+75064	Derby Early / Mid Sixties
+
+
+
+The lamps are configureable for each loco and tender, look in the folder Lamps for details.
+
+
+To install just run the program provided.

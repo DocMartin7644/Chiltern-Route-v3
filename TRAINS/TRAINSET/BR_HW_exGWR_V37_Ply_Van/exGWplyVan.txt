@@ -1,0 +1,33 @@
+exGWR Diagram V37 Covered Ply Van.
+V1.0
+
+3D Model built from scratch by Robin Howell (robin.howell@tiscali.co.uk)
+repainted by Ian Macmillan
+-----------------------------------------------------------------------------
+The 3D model has been built using TrainSim Modeler
+Built 1947 to diagram V37. Faced with Plywood rather than built up by wooden planks due to wartime timber shortages.
+
+
+The wagons have been built specifically for use on the Highworth branch. See www.highworth.freeuk.com 
+
+Any suggestions of help or constructive comments welcome.
+
+The wagons are released as freeware, Copyright (C) 2002, Robin Howell. You may repaint the model on the following conditions:
+
+1.	You must give credit to all parties involved in the development and retain this readme in any repacking of the repainted wagon.
+
+2.	No charge may be made for this archive other than that to cover the cost of its 	distribution. If a fee is charged it must be made clear to the purchaser that the 	archive is freeware and that the fee is to cover the distributor's costs of providing the archive.
+
+3.	Please e-mail me (robin.howell@tiscali.co.uk) just to let me know you are making use of the model to repaint/re-skin. I am just curious to know!
+
+4.	The authors' rights and wishes concerning this archive must be respected.
+
+
+Install instructions: 
+
+1.	unzip to a temporary folder and drag or copy to your Train Simulator/trains/trainset directory.
+
+2. 	Make a consist.
+
+3.	Have fun!
+

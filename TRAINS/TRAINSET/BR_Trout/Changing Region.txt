@@ -1,0 +1,5 @@
+You can easily change the regional lettering on these wagons.
+
+First ddelete the file BRLetter.ace
+Open the Depots folder and copy the appropriate regional file into the main folder.
+Rename the file as Letter.ace
