@@ -641,10 +641,10 @@ CarSpawnerItem( "Doc_AnimatedWaterGreen_A.s" 10 )
 CarSpawnerList(
 ListName ( "Animated Water Grey" )
 4
-CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
-CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
-CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
-CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 0.5 )
+CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 5 )
+CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 5 )
+CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 5 )
+CarSpawnerItem( "Doc_AnimatedWaterGrey_A.s" 5 )
 )
 CarSpawnerList(
 ListName ( "Horse_rider" )
