@@ -4910,3 +4910,27 @@ static ( class ( "EMBANKMENTS" ) filename ( "embank_s_2x10m_15mDirt.s" ) descrip
 static ( class ( "EMBANKMENTS" ) filename ( "embank_s_2x200m_15mDirt.s" ) description ( "Embank_s_2x200m_15mDirt" ) )
 static ( class ( "EMBANKMENTS" ) filename ( "embank_s_2x20m_15mDirt.s" ) description ( "Embank_s_2x20m_15mDirt" ) )
 static ( class ( "EMBANKMENTS" ) filename ( "embank_s_2x50m_15mDirt.s" ) description ( "Embank_s_2x50m_15mDirt" ) )
+Static (
+    Class           ( "EMBANKMENTS - CUSTOM" )
+    Filename        ( Doc_WestLondonBank1.s )
+    Align           ( None )
+    Description     ( Doc_WestLondonBank1 )
+)
+Static (
+    Class           ( "TUNNELS - CUSTOM" )
+    Filename        ( Doc_WestLondonTunnel.s )
+    Align           ( None )
+    Description     ( Doc_WestLondonTunnel )
+)
+Static (
+    Class           ( "EMBANKMENTS - CUSTOM" )
+    Filename        ( Doc_WestLondonBank2.s )
+    Align           ( None )
+    Description     ( Doc_WestLondonBank2 )
+)
+Static (
+    Class           ( "BUILDINGS - FACTORIES" )
+    Filename        ( Doc_OldOakFactoryComplex1.s )
+    Align           ( None )
+    Description     ( Doc_OldOakFactoryComplex1 )
+)
