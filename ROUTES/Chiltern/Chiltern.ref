@@ -4934,3 +4934,9 @@ Static (
     Align           ( None )
     Description     ( Doc_OldOakFactoryComplex1 )
 )
+Static (
+    Class           ( "BUILDINGS - FACTORIES" )
+    Filename        ( Doc_WestLondonFactories.s )
+    Align           ( None )
+    Description     ( Doc_WestLondonFactories )
+)
