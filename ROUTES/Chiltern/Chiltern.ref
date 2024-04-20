@@ -4940,3 +4940,9 @@ Static (
     Align           ( None )
     Description     ( Doc_WestLondonFactories )
 )
+Static (
+    Class           ( "BUILDINGS - FACTORIES" )
+    Filename        ( Doc_OldOakEngineeringWorks.s )
+    Align           ( None )
+    Description     ( Doc_OldOakEngineeringWorks )
+)
