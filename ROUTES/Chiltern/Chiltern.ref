@@ -4946,3 +4946,47 @@ Static (
     Align           ( None )
     Description     ( Doc_OldOakEngineeringWorks )
 )
+Static(
+	FileName (Walterdale1.s )
+	Class ( "BRIDGES" )
+	Description ( WalterdaleBridge )
+)
+Static(
+	FileName (WalterdaleAbt2.s )
+	Class ( "ABUTMENTS" )
+	Description ( WalterdaleAbt2 )
+)
+Static(
+	FileName (WalterdalePier2.s )
+	Class ( "ABUTMENTS" )
+	Description ( WalterdalePier2 )
+)
+Static(
+	FileName (WalterdalePier3.s )
+	Class ( "ABUTMENTS" )
+	Description ( WalterdalePier3 )
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        (LMS_T11bStokeYard.s )
+    Align           ( None )
+    Description     (LMS_T11bStokeYard)
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        (LMS_T11b_Madeley.s )
+    Align           ( None )
+    Description     (LMS_T11b_Madeley)
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        (LMS_T11cLongport_Junction.s )
+    Align           ( None )
+    Description     (LMS_T11cLongport_Junction)
+)
+Static (
+    Class           ( "SIGNAL BOXES" )
+    Filename        LMS_T11cCockshuteSF (.s )
+    Align           ( None )
+    Description     (LMS_T11cCockshuteSF)
+)
