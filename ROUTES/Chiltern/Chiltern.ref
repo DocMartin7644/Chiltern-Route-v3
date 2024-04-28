@@ -4967,6 +4967,26 @@ Static(
 	Description ( WalterdalePier3 )
 )
 Static (
+    Class           ( "MILEPOSTS" )
+    Filename        ( LNWR_Milepost_10iii.s )
+    Align           ( None )
+    Description     ( LNWR_Milepost_10iii )
+)
+
+Static (
+    Class           ( "MILEPOSTS" )
+    Filename        ( LNWR_Milepost_11.s )
+    Align           ( None )
+    Description     ( LNWR_Milepost_11 )
+)
+
+Static (
+    Class           ( "MILEPOSTS" )
+    Filename        ( LNWR_Milepost_11i.s )
+    Align           ( None )
+    Description     ( LNWR_Milepost_11i )
+)
+Static (
     Class           ( "SIGNAL BOXES" )
     Filename        (LMS_T11bStokeYard.s )
     Align           ( None )
@@ -4989,4 +5009,24 @@ Static (
     Filename        LMS_T11cCockshuteSF (.s )
     Align           ( None )
     Description     (LMS_T11cCockshuteSF)
+)
+Static (
+    Class           ( "MILEPOSTS" )
+    Filename        ( LNWR_Milepost_5i.s )
+    Align           ( None )
+    Description     ( LNWR_Milepost_5i )
+)
+
+Static (
+    Class           ( "MILEPOSTS" )
+    Filename        ( LNWR_Milepost_5ii.s )
+    Align           ( None )
+    Description     ( LNWR_Milepost_5ii )
+)
+
+Static (
+    Class           ( "MILEPOSTS" )
+    Filename        ( LNWR_Milepost_5iii.s )
+    Align           ( None )
+    Description     ( LNWR_Milepost_5iii )
 )
