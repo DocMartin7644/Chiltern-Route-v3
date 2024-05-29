@@ -462,6 +462,10 @@ Stone Bridge
 Picnic Table
 Small Shed
 
+Clive Heard
+-----------
+LMS Signal Boxes
+
 Alan Heath
 ----------
 Replacement water texture for water troughs
