@@ -1,0 +1,25 @@
+Bullied West Country Cabview Version 1      
+13 Jan 2009
+Clive Heard (casperdog)
+
+
+A Bullied West Country cabview which can be used to relace what ever cabview you are using. Left hand drive. As I live abroad, I have limited reference material and so some of the controls/positions are not necessarily correct against the prototype. Apologies to the purists.
+
+To install the cab: Unzip the file (I usualy set the download location as the desktop). 
+
+Open the downloaded folder and copy and paste the cabview folder into the loco of your choice. This will over-write the old cabview.
+
+NOTE: If you want to keep the original cabview, rename the folder cabvieworiginal or similar before copying the new cabview.
+ 
+
+Open the eng file with wordpad or similar.
+ 
+Find the CABVIEW entry. Change this to BulliedWC.
+
+If you have a crew installed as a freight animation in the eng file, this line may need to be removed as it may conflict with the cabview.
+
+
+
+
+
+Anyone is welcome to use/modify the cab or parts without asking my permission but I would appreciate if  this original read me is included. 
