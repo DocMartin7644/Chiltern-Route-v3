@@ -196,6 +196,7 @@ Pipe Bridges
 Caldrail
 --------
 Elevated Track Signal Gantries
+Coal Bins
 
 Wayne Campbell
 --------------
@@ -651,6 +652,7 @@ Residential Blocks
 Akshay Mistry
 -------------
 Potato Plants
+Versha Apartments
 
 Vern Moorhouse
 --------------
