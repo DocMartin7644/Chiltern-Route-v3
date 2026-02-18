@@ -982,6 +982,10 @@ Ingo Wittenberg
 ---------------
 Engine Shed
 
+Dave Wood
+---------
+Platform Vehicles
+
 Pete Worsley
 ------------
 Canal Sections
