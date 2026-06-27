@@ -152,7 +152,7 @@ SCRIPT Doc_CL_Shunt
 	}
 	else
 	{
-		state = SIGASP_CLEAR_1;
+		state = SIGASP_CLEAR_2;
 	}
 
 // Get draw state
