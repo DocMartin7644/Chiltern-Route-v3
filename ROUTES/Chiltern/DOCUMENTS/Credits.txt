@@ -349,6 +349,7 @@ Motorbikes
 Henrik Fredborg
 ---------------
 Harbour Crane
+Relay Huts
 
 Reg Furniss
 -----------
@@ -427,6 +428,10 @@ UK Gas Storage Tanks
 GWR Water Towers
 Cinema
 GWR Huts
+
+Chris Gerlach
+-------------
+Garden Wooden Fences
 
 Okrasa Ghia
 -----------
@@ -886,6 +891,7 @@ Engine Sheds
 Cafe GL22
 Houses
 Fire Station
+Industrial Buildings
 
 Ken Swenson
 -----------
